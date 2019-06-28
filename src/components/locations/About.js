@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
+    <div className='about'>
       <h1>My name is Mike Troianello</h1>
       <p>
         I have been a mascot for for a professional baseball team, I have

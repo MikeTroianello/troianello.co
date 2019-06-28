@@ -1,12 +1,8 @@
 .App {
-  text-align: center;
+  font-family: 'roboto';
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .App-header {
   background-color: #282c34;
@@ -19,34 +15,136 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* 
-.teams {
-  height: 100%;
-  width: 80%;
-  padding: 5% 10%;
 } */
 
-/* .teams > div {
-  height: 100%;
-  width: 80%;
-  padding: 5% 10%;
-} */
+body {
+  padding-top: 47px;
+}
 
 div {
   font-size: 20px;
 }
+
+/* HEADER */
+
+.header {
+  /* background-color: #002145; */
+  background-color: #192e6c;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* HOME PAGE */
+
+.home-bg {
+  height: 300vh;
+}
+
+.link {
+  text-align: center;
+}
+
+.link a {
+  text-decoration: #ff8500;
+  color: hsl(31, 100%, 39%);
+  background-color: hsl(31, 85%, 73%);
+  border-style: solid;
+  border-color: #ff8500;
+  border-width: 2px;
+}
+
+.home-top {
+  background-color: #0091a0;
+  color: white;
+  height: 86vh;
+  width: 100%;
+  transform: skewY(-5deg);
+  margin-top: -9vh;
+  padding: 0;
+}
+
+.home-top h1 {
+  font-size: 10em;
+  padding-left: 0.6em;
+  padding-top: 0.8em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  transform: skewY(5deg);
+}
+
+.home-about {
+  height: 100vh;
+}
+
+.home-about h1 {
+  font-size: 5em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.home-projects {
+  background-color: #a5acaf;
+  height: 85vh;
+}
+
+.home-projects h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.home-contact {
+  height: 75vh;
+}
+
+.home-contact h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+/* .home-slant {
+  background-color: #0091a0;
+  height: 28vh;
+  transform: skewY(-5deg);
+  padding: 0;
+  margin: 10vh 0 0 0;
+  z-index: -1;
+} */
+
+/* ABOUT PAGE */
+
+.about {
+  background-color: #0091a0;
+  color: white;
+  height: 800vh;
+}
+
+/* PROJECTS PAGE */
+
+.projects {
+  background-color: #0091a0;
+  color: white;
+  height: 800vh;
+}
+
+/* CONTACT PAGE */
+
+.contact-page {
+  background-color: #0091a0;
+  color: white;
+  height: 40vh;
+}
+
+.contact-page h1 {
+  text-align: center;
+  margin: 1em;
+}
+
+/* COLOR SCHEME */
 
 .container-fluid {
   height: 500px;
@@ -98,10 +196,31 @@ div {
   background-color: #b20032;
 }
 
-.header {
+.links {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.header > div {
-  justify-content: flex-end;
+.individual-link {
+  margin: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #b0b7bc;
+}
+
+.logo {
+  /* display: flex; */
+  color: #66c010;
+  /* margin-right: auto; */
+  /* position: static; */
+  padding: 0px 4px;
+  font-size: 22px;
+  border-style: solid;
+  border-color: #66c010;
+  border-width: 2px;
+  /* margin-top: 2px; */
+  margin: 5px auto 5px 8px;
 }

@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div>
+    <div className='projects'>
+      <h1>My Previous Projects</h1>
       <div>
         <a
           href='https://miketroianello.github.io/Paint/paint.html'
