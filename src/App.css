@@ -31,7 +31,7 @@ div {
 
 .header {
   /* background-color: #002145; */
-  background-color: #192e6c;
+  /* background-color: #192e6c; */
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -61,10 +61,10 @@ div {
 .home-top {
   background-color: #0091a0;
   color: white;
-  height: 86vh;
+  height: 90vh;
   width: 100%;
   transform: skewY(-5deg);
-  margin-top: -9vh;
+  margin-top: -16vh;
   padding: 0;
 }
 
@@ -208,12 +208,12 @@ div {
 
 a {
   text-decoration: none;
-  color: #b0b7bc;
+  color: #ffffff;
 }
 
 .logo {
   /* display: flex; */
-  color: #66c010;
+  color: #ffffff;
   /* margin-right: auto; */
   /* position: static; */
   padding: 0px 4px;
