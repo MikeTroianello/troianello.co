@@ -6,10 +6,11 @@ export default class Home extends Component {
   render() {
     let date = new Date();
     let hours = date.getHours();
+    console.log(hours);
     return (
       <div className='home-bg'>
         <div className='home-top'>
-          <Greet props={hours} />
+          <Greet hours='10' />
         </div>
         <div className='home-projects'>
           <h1>MY PROJECTS</h1>
