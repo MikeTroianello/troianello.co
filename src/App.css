@@ -6,13 +6,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 106vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: -3em;
+  padding-top: 3em;
 }
 
 /* .App-link {
@@ -127,7 +129,9 @@ p {
 .about {
   background-color: #0091a0;
   color: white;
-  height: 800vh;
+  height: 104vh;
+  margin-top: -3em;
+  padding-top: 3em;
 }
 
 /* PROJECTS PAGE */
@@ -135,7 +139,9 @@ p {
 .projects {
   background-color: #0091a0;
   color: white;
-  height: 800vh;
+  height: 104vh;
+  margin-top: -3em;
+  padding-top: 3em;
 }
 
 /* CONTACT PAGE */
@@ -143,7 +149,9 @@ p {
 .contact-page {
   background-color: #0091a0;
   color: white;
-  height: 40vh;
+  height: 104vh;
+  margin-top: -3em;
+  padding-top: 3em;
 }
 
 .contact-page h1 {
@@ -155,6 +163,8 @@ p {
 
 .container-fluid {
   height: 500px;
+  margin-top: -3em;
+  padding-top: 3em;
 }
 .row {
   height: 500px;
@@ -226,7 +236,7 @@ a {
   padding: 0px 4px;
   font-size: 1.25em;
   border-style: solid;
-  border-color: #7adc1f;
+  border-color: #74d21c;
   /* border-color: #ffffff; */
   border-width: 2px;
   /* margin-top: 2px; */

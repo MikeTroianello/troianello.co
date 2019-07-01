@@ -15,7 +15,7 @@ export default class Home extends Component {
         <div className='home-projects'>
           <h1>MY PROJECTS</h1>
           <div className='link'>
-            <Link to='/projects'>See All</Link>
+            <Link to='/projects'>All My Projects</Link>
           </div>
         </div>
         <div className='home-about'>
