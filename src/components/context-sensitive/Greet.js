@@ -8,7 +8,7 @@ export default class Greed extends Component {
       console.log();
       if (hours < 12) {
         return 'Good Morning!';
-      } else if (hours >= 12 && hours < 5) {
+      } else if (hours >= 12 && hours < 18) {
         return 'Good Afternoon!';
       } else {
         return 'Good Evening!';

@@ -220,13 +220,13 @@ a {
 
 .logo {
   /* display: flex; */
-  color: #ffffff;
+  color: white;
   /* margin-right: auto; */
   /* position: static; */
   padding: 0px 4px;
-  font-size: 22px;
+  font-size: 1.25em;
   border-style: solid;
-  border-color: #66c010;
+  border-color: #7adc1f;
   /* border-color: #ffffff; */
   border-width: 2px;
   /* margin-top: 2px; */

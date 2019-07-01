@@ -10,7 +10,7 @@ export default class Home extends Component {
     return (
       <div className='home-bg'>
         <div className='home-top'>
-          <Greet hours='10' />
+          <Greet hours={hours} />
         </div>
         <div className='home-projects'>
           <h1>MY PROJECTS</h1>
