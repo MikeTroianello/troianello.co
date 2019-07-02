@@ -8,19 +8,19 @@ export default class Header extends Component {
         <div className='links'>
           <span className='logo'>Mt</span>
           <div className='individual-link'>
-            <Link to='/'>HOME</Link>
+            <Link to='/'>Home</Link>
           </div>
           <div className='individual-link'>
-            <Link to='/about'>ABOUT</Link>
+            <Link to='/about'>About</Link>
           </div>
           <div className='individual-link'>
-            <Link to='/projects'>PROJECTS</Link>
+            <Link to='/projects'>Projects</Link>
           </div>
           <div className='individual-link'>
-            <Link to='/colors'>COLOR SCHEME</Link>
+            <Link to='/colors'>Color Scheme</Link>
           </div>
-          <div className='individual-link'>
-            <Link to='/contact'>CONTACT ME</Link>
+          <div className='individual-link test'>
+            <Link to='/contact'>Contact Me</Link>
           </div>
         </div>
       </div>

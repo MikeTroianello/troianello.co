@@ -3,6 +3,7 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:800&display=swap');
 
 .App-header {
   background-color: #282c34;
@@ -28,7 +29,7 @@ div {
 }
 
 p {
-  margin-left: 3em;
+  margin-left: 4em;
 }
 
 /* HEADER */
@@ -64,7 +65,7 @@ p {
 
 .home-top {
   background-color: #0091a0;
-  color: white;
+  color: #f7f4f4;
   height: 90vh;
   width: 100%;
   transform: skewY(-5deg);
@@ -82,9 +83,24 @@ p {
   transform: skewY(5deg);
 }
 
+.home-fade1 {
+  height: 2vh;
+  width: 100%;
+  background-color: #a2d7dc;
+  transform: skewY(-5deg);
+  margin-top: -1vh;
+}
+
+.home-fade2 {
+  height: 1vh;
+  width: 100%;
+  background-color: #e1e3e5;
+  /* margin-top: -1vh; */
+}
+
 .home-about {
   height: 60vh;
-  background-color: #a5acaf;
+  background-color: #909a9f;
 }
 
 .home-about h1 {
@@ -125,7 +141,7 @@ p {
 
 .about {
   background-color: #0091a0;
-  color: white;
+  color: #f7f4f4;
   height: 104vh;
   margin-top: -3em;
   padding-top: 3em;
@@ -135,7 +151,7 @@ p {
 
 .projects {
   background-color: #0091a0;
-  color: white;
+  color: #f7f4f4;
   height: 104vh;
   margin-top: -3em;
   padding-top: 3em;
@@ -145,8 +161,8 @@ p {
 
 .contact-page {
   background-color: #0091a0;
-  color: white;
-  height: 40vh;
+  color: #f7f4f4;
+  height: 104vh;
   margin-top: -3em;
   padding-top: 3em;
 }
@@ -219,7 +235,19 @@ p {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  font-family: 'Exo 2';
+  color: #66c010;
+  text-shadow: 1px 1px 1px #002145;
+}
+
+a:hover {
+  color: #66c010;
+  text-shadow: 1px 0 10px #8c187b;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  text-decoration: none;
 }
 
 .logo {
@@ -227,8 +255,8 @@ a {
   color: #74d21c;
   /* margin-right: auto; */
   /* position: static; */
-  padding: 0px 4px;
-  font-size: 1.25em;
+  padding: 0px 5px;
+  font-size: 1.35em;
   border-style: solid;
   border-color: #74d21c;
   /* border-color: #ffffff; */

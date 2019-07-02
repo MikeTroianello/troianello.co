@@ -12,12 +12,14 @@ export default class Home extends Component {
         <div className='home-top'>
           <Greet hours={hours} />
         </div>
+        <div className='home-fade1' />
         <div className='home-projects'>
           <h1>MY PROJECTS</h1>
           <div className='link'>
             <Link to='/projects'>All My Projects</Link>
           </div>
         </div>
+        <div className='home-fade2' />
         <div className='home-about'>
           <h1>ABOUT ME</h1>
           <p>
@@ -28,6 +30,7 @@ export default class Home extends Component {
             <Link to='/about'>Learn More</Link>
           </div>
         </div>
+        <div className='home-fade2' />
         <div className='home-contact'>
           <h1>CONTACT INFO</h1>
           <div className='link'>
