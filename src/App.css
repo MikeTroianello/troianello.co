@@ -73,7 +73,7 @@ p {
 }
 
 .home-top h1 {
-  font-size: 8em;
+  font-size: 7em;
   padding-left: 0.6em;
   padding-top: 0.8em;
   padding-right: 50%;
@@ -224,7 +224,7 @@ a {
 
 .logo {
   /* display: flex; */
-  color: white;
+  color: #74d21c;
   /* margin-right: auto; */
   /* position: static; */
   padding: 0px 4px;
