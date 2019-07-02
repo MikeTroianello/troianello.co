@@ -6,15 +6,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 106vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-top: -3em;
-  padding-top: 3em;
 }
 
 /* .App-link {
@@ -30,7 +28,7 @@ div {
 }
 
 p {
-  text-align: center;
+  margin-left: 3em;
 }
 
 /* HEADER */
@@ -52,7 +50,7 @@ p {
 }
 
 .link {
-  text-align: center;
+  margin-left: 15em;
 }
 
 .link a {
@@ -90,20 +88,19 @@ p {
 }
 
 .home-about h1 {
-  font-size: 4em;
-  text-align: center;
+  font-size: 4.25em;
+  margin-left: 1.25em;
 }
 
 .home-projects {
   font-size: 2em;
-  text-align: center;
   padding-top: 3em;
   height: 110vh;
 }
 
 .home-projects h1 {
   font-size: 2em;
-  text-align: center;
+  margin-left: 1.4em;
 }
 
 .home-contact {
@@ -111,8 +108,8 @@ p {
 }
 
 .home-contact h1 {
-  font-size: 5em;
-  text-align: center;
+  font-size: 4.5em;
+  margin-left: 1em;
 }
 
 /* .home-slant {
@@ -149,13 +146,12 @@ p {
 .contact-page {
   background-color: #0091a0;
   color: white;
-  height: 104vh;
+  height: 40vh;
   margin-top: -3em;
   padding-top: 3em;
 }
 
 .contact-page h1 {
-  text-align: center;
   margin: 1em;
 }
 
@@ -163,8 +159,6 @@ p {
 
 .container-fluid {
   height: 500px;
-  margin-top: -3em;
-  padding-top: 3em;
 }
 .row {
   height: 500px;
