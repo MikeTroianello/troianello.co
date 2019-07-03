@@ -1,3 +1,8 @@
+:root {
+  --off-black: #131313;
+  --off-white: #f2eeee;
+}
+
 .App {
   font-family: 'roboto';
 }
@@ -13,7 +18,7 @@
   /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 /* .App-link {
@@ -30,6 +35,7 @@ div {
 
 p {
   margin-left: 4em;
+  color: var(--off-black);
 }
 
 /* HEADER */
@@ -42,6 +48,23 @@ p {
   top: 0;
   width: 100%;
   z-index: 1;
+}
+
+.header a {
+  text-decoration: none;
+  font-family: 'Exo 2';
+  color: #66c010;
+  text-shadow: 1px 1px 1px #002145;
+}
+
+.header a:hover {
+  color: #66c010;
+  text-shadow: 1px 0 10px #8c187b;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  text-decoration: none;
 }
 
 /* HOME PAGE */
@@ -65,8 +88,8 @@ p {
 
 .home-top {
   background-color: #0091a0;
-  color: #f7f4f4;
-  height: 90vh;
+
+  height: 86vh;
   width: 100%;
   transform: skewY(-5deg);
   margin-top: -16vh;
@@ -74,6 +97,7 @@ p {
 }
 
 .home-top h1 {
+  color: var(--off-white);
   font-size: 7em;
   padding-left: 0.6em;
   padding-top: 0.8em;
@@ -81,6 +105,7 @@ p {
   margin-bottom: 0;
   padding-bottom: 0;
   transform: skewY(5deg);
+  text-shadow: 1px 1px 1px #007783;
 }
 
 .home-fade1 {
@@ -100,10 +125,14 @@ p {
 
 .home-about {
   height: 60vh;
-  background-color: #909a9f;
+  background: url('./pics/thumbnail-2.jpg') no-repeat;
+  background-size: 100%; /** moved this property down */
+  background-repeat: no-repeat;
+  /* background-color: #909a9f; */
 }
 
 .home-about h1 {
+  color: var(--off-black);
   font-size: 4.25em;
   margin-left: 1.25em;
 }
@@ -115,6 +144,7 @@ p {
 }
 
 .home-projects h1 {
+  color: var(--off-black);
   font-size: 2em;
   margin-left: 1.4em;
 }
@@ -126,6 +156,7 @@ p {
 .home-contact h1 {
   font-size: 4.5em;
   margin-left: 1em;
+  color: var(--off-black);
 }
 
 /* .home-slant {
@@ -141,7 +172,7 @@ p {
 
 .about {
   background-color: #0091a0;
-  color: #f7f4f4;
+  color: var(--off-white);
   height: 104vh;
   margin-top: -3em;
   padding-top: 3em;
@@ -151,7 +182,7 @@ p {
 
 .projects {
   background-color: #0091a0;
-  color: #f7f4f4;
+  color: var(--off-white);
   height: 104vh;
   margin-top: -3em;
   padding-top: 3em;
@@ -161,7 +192,8 @@ p {
 
 .contact-page {
   background-color: #0091a0;
-  color: #f7f4f4;
+
+  color: var(--off-white);
   height: 104vh;
   margin-top: -3em;
   padding-top: 3em;
@@ -233,34 +265,20 @@ p {
   margin: 0 1em;
 }
 
-a {
-  text-decoration: none;
-  font-family: 'Exo 2';
-  color: #66c010;
-  text-shadow: 1px 1px 1px #002145;
-}
-
-a:hover {
-  color: #66c010;
-  text-shadow: 1px 0 10px #8c187b;
-  -moz-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
-  text-decoration: none;
-}
-
 .logo {
   /* display: flex; */
   color: #74d21c;
   /* margin-right: auto; */
   /* position: static; */
+  text-shadow: 1px 1px 1px #336a00;
   padding: 0px 5px;
   font-size: 1.35em;
+  font-weight: bold;
   border-style: solid;
   border-color: #74d21c;
   /* border-color: #ffffff; */
   border-width: 2px;
+  box-shadow: 1px 1px #336a00;
   /* margin-top: 2px; */
   margin: 5px auto 5px 8px;
 }

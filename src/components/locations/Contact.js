@@ -5,7 +5,7 @@ export default function Contact() {
     <div className='contact-page'>
       <h1>Contact Me:</h1>
       <h2>
-        Email: <st>email.address@placeholder.com</st>
+        Email: <strong>email.address@placeholder.com</strong>
       </h2>
       <h2>Phone: (598)867-5309</h2>
       <h2>GitHub: myGitHub.com</h2>
