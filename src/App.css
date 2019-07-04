@@ -41,7 +41,7 @@ p {
 /* HEADER */
 
 .header {
-  /* background-color: #002145; */
+  background-color: #0091a0;
   /* background-color: #192e6c; */
   overflow: hidden;
   position: fixed;
@@ -52,9 +52,10 @@ p {
 
 .header a {
   text-decoration: none;
-  font-family: 'Exo 2';
-  color: #66c010;
+  font-family: 'roboto';
+  color: white;
   text-shadow: 1px 1px 1px #002145;
+  font-size: 1.1em;
 }
 
 .header a:hover {
@@ -88,7 +89,6 @@ p {
 
 .home-top {
   background-color: #0091a0;
-
   height: 86vh;
   width: 100%;
   transform: skewY(-5deg);
@@ -124,10 +124,11 @@ p {
 }
 
 .home-about {
-  height: 60vh;
-  background: url('./pics/thumbnail-2.jpg') no-repeat;
-  background-size: 100%; /** moved this property down */
-  background-repeat: no-repeat;
+  height: 80vh;
+  background: url('./pics/thumbnail-3.jpg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -30vh;
+  /* background-repeat: no-repeat; */
   /* background-color: #909a9f; */
 }
 
@@ -150,7 +151,7 @@ p {
 }
 
 .home-contact {
-  height: 75vh;
+  height: 50vh;
 }
 
 .home-contact h1 {
@@ -267,18 +268,18 @@ p {
 
 .logo {
   /* display: flex; */
-  color: #74d21c;
+  color: white;
   /* margin-right: auto; */
   /* position: static; */
-  text-shadow: 1px 1px 1px #336a00;
-  padding: 0px 5px;
+  /* text-shadow: 1px 1px 1px white; */
+  padding: 1px 6px;
   font-size: 1.35em;
   font-weight: bold;
   border-style: solid;
-  border-color: #74d21c;
+  border-color: White;
   /* border-color: #ffffff; */
   border-width: 2px;
-  box-shadow: 1px 1px #336a00;
+  /* box-shadow: 1px 1px white; */
   /* margin-top: 2px; */
-  margin: 5px auto 5px 8px;
+  margin: 20px auto 20px 15px;
 }
