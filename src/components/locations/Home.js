@@ -29,9 +29,6 @@ export default class Home extends Component {
           <div className='link'>
             <Link to='/about'>Learn More</Link>
           </div>
-        </div>
-        <div className='home-fade2' />
-        <div className='home-contact'>
           <h1>CONTACT INFO</h1>
           <div className='link'>
             <Link to='/contact'>Info</Link>

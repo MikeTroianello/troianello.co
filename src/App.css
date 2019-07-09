@@ -58,15 +58,6 @@ p {
   font-size: 1.1em;
 }
 
-.header a:hover {
-  color: #66c010;
-  text-shadow: 1px 0 10px #8c187b;
-  -moz-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
-  text-decoration: none;
-}
 
 /* HOME PAGE */
 
@@ -92,16 +83,16 @@ p {
   height: 86vh;
   width: 100%;
   transform: skewY(-5deg);
-  margin-top: -16vh;
+  margin-top: -5vh;
   padding: 0;
 }
 
 .home-top h1 {
+  text-align:center;
   color: var(--off-white);
-  font-size: 7em;
+  font-size: 5em;
   padding-left: 0.6em;
   padding-top: 0.8em;
-  padding-right: 50%;
   margin-bottom: 0;
   padding-bottom: 0;
   transform: skewY(5deg);
@@ -124,7 +115,7 @@ p {
 }
 
 .home-about {
-  height: 80vh;
+  height: 105vh;
   background: url('./pics/thumbnail-3.jpg') no-repeat;
   background-size: 100% auto;
   background-position: 0 -30vh;
@@ -133,21 +124,21 @@ p {
 }
 
 .home-about h1 {
-  color: var(--off-black);
+  color: var(--off-white);
   font-size: 4.25em;
   margin-left: 1.25em;
 }
 
 .home-projects {
   font-size: 2em;
-  padding-top: 3em;
+  padding-top: 1em;
   height: 110vh;
 }
 
 .home-projects h1 {
   color: var(--off-black);
   font-size: 2em;
-  margin-left: 1.4em;
+  text-align: center
 }
 
 .home-contact {
@@ -157,32 +148,41 @@ p {
 .home-contact h1 {
   font-size: 4.5em;
   margin-left: 1em;
-  color: var(--off-black);
+  color: var(--off-white);
 }
 
-/* .home-slant {
-  background-color: #0091a0;
-  height: 28vh;
-  transform: skewY(-5deg);
-  padding: 0;
-  margin: 10vh 0 0 0;
-  z-index: -1;
-} */
 
 /* ABOUT PAGE */
 
 .about {
-  background-color: #0091a0;
+  /* background-color: #0091a0; */
+  background-color: #1c7787;
   color: var(--off-white);
-  height: 104vh;
-  margin-top: -3em;
+  height: 96vh;
+  margin-top: 1em;
   padding-top: 3em;
+  text-align:center;
+}
+
+.about p {
+  color: var(--off-white);
+}
+
+/* .about h4 {
+  text-align: center;
+} */
+
+
+.about ul > li {
+  list-style: none;
+  font-size: 1em;
+  /* text-align: center; */
 }
 
 /* PROJECTS PAGE */
 
 .projects {
-  background-color: #0091a0;
+  background-color: #1c7787;
   color: var(--off-white);
   height: 104vh;
   margin-top: -3em;
@@ -192,7 +192,7 @@ p {
 /* CONTACT PAGE */
 
 .contact-page {
-  background-color: #0091a0;
+  background-color: #1c7787;
 
   color: var(--off-white);
   height: 104vh;

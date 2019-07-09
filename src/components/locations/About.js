@@ -24,6 +24,7 @@ export default function About() {
         <li>jQuery</li>
         <li>CSS3</li>
       </ul>
+      {/* <img src='/Users/miketroianello/Desktop/Personal-Projects/troianello.co/src/pics/thumbnail.jpg' alt='Larger Pieces of the Smaller Picture' /> */}
     </div>
   );
 }
