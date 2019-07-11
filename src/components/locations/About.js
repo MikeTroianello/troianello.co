@@ -15,15 +15,22 @@ export default function About() {
         Ironhack.
       </p>
       <p>I am currently skilled in:</p>
-      <ul>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>MongoDb</li>
-        <li>Express</li>
-        <li>jQuery</li>
-        <li>CSS3</li>
-      </ul>
+      <div id="table-div">
+        <table>
+          <tr>
+            <td>JavaScript</td>
+            <td>React.js</td>
+            <td>Node.js</td>
+            <td>MongoDb</td>
+          </tr>
+          <tr>
+            <td>Express</td>
+            <td>jQuery</td>
+            <td>CSS3</td>
+            <td>SCSS</td>
+          </tr>
+        </table>
+      </div>
       {/* <img src='/Users/miketroianello/Desktop/Personal-Projects/troianello.co/src/pics/thumbnail.jpg' alt='Larger Pieces of the Smaller Picture' /> */}
     </div>
   );
