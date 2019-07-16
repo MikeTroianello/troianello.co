@@ -58,7 +58,6 @@ p {
   font-size: 1.1em;
 }
 
-
 /* HOME PAGE */
 
 .home-bg {
@@ -88,7 +87,7 @@ p {
 }
 
 .home-top h1 {
-  text-align:center;
+  text-align: center;
   color: var(--off-white);
   font-size: 5em;
   padding-left: 0.6em;
@@ -116,7 +115,8 @@ p {
 
 .home-about {
   height: 105vh;
-  background: url('./pics/thumbnail-3.jpg') no-repeat;
+  background: url('./components/images/pics/album-pics/thumbnail-3.jpg')
+    no-repeat;
   background-size: 100% auto;
   background-position: 0 -30vh;
   /* background-repeat: no-repeat; */
@@ -138,7 +138,7 @@ p {
 .home-projects h1 {
   color: var(--off-black);
   font-size: 2em;
-  text-align: center
+  text-align: center;
 }
 
 .home-contact {
@@ -151,7 +151,6 @@ p {
   color: var(--off-white);
 }
 
-
 /* ABOUT PAGE */
 
 .about {
@@ -161,7 +160,7 @@ p {
   height: 96vh;
   margin-top: 1em;
   padding-top: 3em;
-  text-align:center;
+  text-align: center;
 }
 
 .about p {
@@ -171,7 +170,6 @@ p {
 /* .about h4 {
   text-align: center;
 } */
-
 
 .about ul > li {
   list-style: none;
@@ -284,17 +282,22 @@ p {
   margin: 20px auto 20px 15px;
 }
 
-table, th, td {
-
+table,
+th,
+td {
   border: 2px solid black;
-
 }
 
 td {
   font-size: 2em;
 }
 
-#table-div{
-  display:flex;
+#table-div {
+  display: flex;
   justify-content: center;
 }
+
+/* .icons {
+  size: 100% auto;
+  position: 0 -30vh;
+} */

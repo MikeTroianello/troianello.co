@@ -1,5 +1,12 @@
 import React from 'react';
-// import './App.css';
+import jsLogo from '../images/pics/icons/javascript.png';
+import reactLogo from '../images/pics/icons/react.png';
+import nodeLogo from '../images/pics/icons/node.png';
+import mongoLogo from '../images/pics/icons/mongoDB.png';
+import jqueryLogo from '../images/pics/icons/jquery.png';
+import cssLogo from '../images/pics/icons/css3.png';
+import sassLogo from '../images/pics/icons/sass.png';
+import sassAltLogo from '../images/pics/icons/sass-alt.png';
 
 export default function About() {
   return (
@@ -14,20 +21,84 @@ export default function About() {
         inclination, I moved to Miami, FL to study Full Stack Web Development at
         Ironhack.
       </p>
-      <p>I am currently skilled in:</p>
-      <div id="table-div">
+      <p>My web development skills include:</p>
+      <div id='table-div'>
         <table>
           <tr>
-            <td>JavaScript</td>
-            <td>React.js</td>
-            <td>Node.js</td>
-            <td>MongoDb</td>
+            <td>
+              <img
+                src={jsLogo}
+                height='42'
+                width='42'
+                alt='js-logo'
+                className='icons'
+              />
+              JavaScript
+            </td>
+            <td>
+              <img
+                src={reactLogo}
+                height='42'
+                width='42'
+                alt='react-logo'
+                className='icons'
+              />
+              React.js
+            </td>
+            <td>
+              <img
+                src={nodeLogo}
+                height='42'
+                width='42'
+                alt='node-logo'
+                className='icons'
+              />
+              Node.js
+            </td>
+            <td>
+              <img
+                src={mongoLogo}
+                height='42'
+                width='42'
+                alt='mongodb-logo'
+                className='icons'
+              />
+              MongoDB
+            </td>
           </tr>
           <tr>
             <td>Express</td>
-            <td>jQuery</td>
-            <td>CSS3</td>
-            <td>SCSS</td>
+            {/* <img className='icons' src='' alt='express-logo' /> */}
+            <td>
+              <img
+                src={jqueryLogo}
+                alt='jquery-logo'
+                height='42'
+                width='42'
+                className='icons'
+              />
+              jQuery
+            </td>
+            <td>
+              <img
+                src={cssLogo}
+                height='42'
+                width='42'
+                alt='css3-logo'
+                className='icons'
+              />
+              CSS3
+            </td>
+            <td>
+              <img
+                src={sassLogo}
+                height='42'
+                width='42'
+                alt='sass-logo'
+                className='icons'
+              />
+              SCSS
+            </td>
           </tr>
         </table>
       </div>
