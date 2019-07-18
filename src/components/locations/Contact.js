@@ -8,8 +8,20 @@ export default function Contact() {
         Email: <strong>email.address@placeholder.com</strong>
       </h2>
       <h2>Phone: (598)867-5309</h2>
-      <h2>GitHub: myGitHub.com</h2>
-      <h2>LinkedIn: mike.linkedin.com</h2>
+      <h2>
+        GitHub:{' '}
+        <strong>
+          <a href='https://github.com/MikeTroianello'>
+            https://github.com/MikeTroianello
+          </a>
+        </strong>
+      </h2>
+      <h2>
+        LinkedIn:
+        <a href='https://www.linkedin.com/in/miketroianello/'>
+          https://www.linkedin.com/in/miketroianello/
+        </a>
+      </h2>
     </div>
   );
 }
