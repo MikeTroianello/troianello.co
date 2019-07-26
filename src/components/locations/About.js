@@ -108,7 +108,7 @@ export default function About() {
           {/* <img src='/Users/miketroianello/Desktop/Personal-Projects/troianello.co/src/pics/thumbnail.jpg' alt='Larger Pieces of the Smaller Picture' /> */}
         </div>
         <div className='col-6 about-side-2'>
-          <h1 className='about-my-life'>My Professional Life</h1>
+          <h1 className='about-my-life'>My Personal Life</h1>
         </div>
       </div>
     </div>

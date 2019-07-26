@@ -5,7 +5,16 @@ export default function Contact() {
     <div className='contact-page'>
       <h1>Contact Me:</h1>
       <h2>
-        Email: <strong>email.address@placeholder.com</strong>
+        Email:{' '}
+        <strong>
+          <a
+            href='mailto:mike@troianello.co'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            mike@troianello.co
+          </a>
+        </strong>
       </h2>
       <h2>Phone: (598)867-5309</h2>
       <h2>
