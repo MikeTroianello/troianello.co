@@ -157,7 +157,8 @@ p {
   /* background-color: #0091a0; */
   background-color: #1c7787;
   color: var(--off-white);
-  height: 96vh;
+  height: 92.9vh;
+  overflow: hidden;
   margin-top: 1em;
   padding-top: 3em;
   text-align: center;
@@ -301,3 +302,17 @@ td {
   size: 100% auto;
   position: 0 -30vh;
 } */
+
+.about-side-one {
+  padding-right: 3em;
+  border-right: 1px solid black;
+  height: 75vh;
+}
+
+.about-side-2 {
+  margin-left: -2em;
+}
+
+.about-my-life {
+  margin: 1em 0 2em;
+}
