@@ -283,6 +283,22 @@ p {
   margin: 20px auto 20px 15px;
 }
 
+.react {
+  animation-name: spin;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 table,
 th,
 td {
@@ -298,9 +314,12 @@ td {
   justify-content: center;
 }
 
-/* .icons {
-  size: 100% auto;
-  position: 0 -30vh;
+.icons {
+  margin-bottom: 1.1vh;
+}
+
+/* .express {
+  font-family: helvetica-neue;
 } */
 
 .about-side-one {

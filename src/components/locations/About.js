@@ -44,7 +44,7 @@ export default function About() {
                     height='42'
                     width='42'
                     alt='react-logo'
-                    className='icons'
+                    className='icons react'
                   />
                   React.js
                 </td>
@@ -70,7 +70,7 @@ export default function About() {
                 </td>
               </tr>
               <tr>
-                <td>Express</td>
+                <td className='express'>Express</td>
                 {/* <img className='icons' src='' alt='express-logo' /> */}
                 <td>
                   <img
