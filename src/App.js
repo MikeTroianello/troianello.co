@@ -8,9 +8,11 @@ import Projects from './components/locations/Projects';
 import Contact from './components//locations/Contact';
 import NotFound from './components/locations/NotFound';
 import './App.css';
+// import projects from './projects.json';
 
 class App extends Component {
   render() {
+    // console.log(projects);
     return (
       <div className='App'>
         <Router>
