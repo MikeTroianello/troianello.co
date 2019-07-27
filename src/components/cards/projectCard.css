@@ -1,3 +1,24 @@
 .project-card {
+  border: 1px solid black;
+  width: 20vw;
+  height: 30vh;
   color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.main-project {
+  background: red;
+}
+
+.game {
+  background: green;
+}
+
+.codepen {
+  background: yellow;
+}
+
+.proof-of-concept {
+  background: white;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import './projectCard.css';
 
 export default function ProjectCard(props) {
-  console.log('+_+_+_+_+_+_+_', props);
   return (
     <div>
       <div className='project-card'>

@@ -6,7 +6,9 @@ export default class Header extends Component {
     return (
       <div className='header'>
         <div className='links'>
-          <span className='logo'>Mt</span>
+          <span className='logo'>
+            <Link to='/'>Mt</Link>
+          </span>
           <div className='individual-link'>
             <Link to='/colors'>Color Scheme</Link>
           </div>

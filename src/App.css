@@ -189,19 +189,42 @@ p {
   padding-top: 3em;
 }
 
+.project-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-title {
+  text-align: center;
+}
+
 /* CONTACT PAGE */
 
 .contact-page {
   background-color: #1c7787;
 
   color: var(--off-white);
-  height: 104vh;
+  height: 101.4vh;
+  overflow: hidden;
   margin-top: -3em;
   padding-top: 3em;
 }
 
 .contact-page h1 {
   margin: 1em;
+}
+
+.contact-center {
+  text-align: center;
+}
+
+.or {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  color: var(--off-white);
 }
 
 /* COLOR SCHEME */

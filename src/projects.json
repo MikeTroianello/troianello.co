@@ -4,7 +4,7 @@
     "url": "https://miketroianello.github.io/Paint/paint.html",
     "image": "",
     "description": "",
-    "category": "Game",
+    "category": "game",
     "technologies": []
   },
   {
@@ -12,7 +12,7 @@
     "url": "https://hotspot-map.herokuapp.com",
     "image": "",
     "description": "",
-    "category": "Main-Project",
+    "category": "main-project",
     "technologies": []
   },
   {
@@ -20,7 +20,7 @@
     "url": "https://ironquest.herokuapp.com",
     "image": "",
     "description": "",
-    "category": "Main-Project",
+    "category": "main-project",
     "technologies": []
   },
   {
@@ -28,7 +28,7 @@
     "url": "https://codepen.io/mktro/pen/NQrPGy",
     "image": "",
     "description": "",
-    "category": "Codepen",
+    "category": "codepen",
     "technologies": ["CSS3", "JavaScript"]
   }
 ]
