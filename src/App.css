@@ -289,22 +289,31 @@ p {
   margin: 0 1em;
 }
 
+/* logo */
+
 .logo {
-  /* display: flex; */
   color: white;
-  /* margin-right: auto; */
-  /* position: static; */
-  /* text-shadow: 1px 1px 1px white; */
   padding: 1px 6px;
   font-size: 1.35em;
   font-weight: bold;
   border-style: solid;
   border-color: White;
-  /* border-color: #ffffff; */
   border-width: 2px;
-  /* box-shadow: 1px 1px white; */
-  /* margin-top: 2px; */
   margin: 20px auto 20px 15px;
+}
+
+.logo-2{
+  color: white;
+  padding: 1px 6px 0;
+  font-weight: bold;
+  border-style: solid;
+  border-color: White;
+  border-width: 2px;
+  margin: 20px auto 20px 15px;
+}
+
+.mt-logo{
+  margin: 2px 0;
 }
 
 .react {
@@ -342,24 +351,23 @@ td {
   margin-bottom: 1.1vh;
 }
 
-/* .express {
-  font-family: helvetica-neue;
-} */
+/* ABOUT PAGE */
 
 .about-side-one {
-  padding-right: 3em;
+
+  padding-right: 3.1vw;
   border-right: 1px solid black;
   height: 75vh;
 }
 
 .about-side-2 {
-  margin-left: -2em;
+  margin-left: -2vw;
 }
 
 .about-my-life {
-  margin: 1em 0 1.25em;
+  margin: 4.25vh 0 5vh;
 }
 
 .about-soundcloud-embed{
-  margin-left: 4.2em;
+  margin-left: 4.3vw;
 }
