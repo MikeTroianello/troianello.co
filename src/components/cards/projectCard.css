@@ -9,16 +9,40 @@
 
 .main-project {
   background: red;
+  border: 1px solid black;
+  width: 20vw;
+  height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .game {
   background: green;
+  border: 1px solid black;
+  width: 20vw;
+  height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .codepen {
   background: yellow;
+  border: 1px solid black;
+  width: 20vw;
+  height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .proof-of-concept {
   background: white;
+  border: 1px solid black;
+  width: 20vw;
+  height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
