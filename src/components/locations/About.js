@@ -16,9 +16,7 @@ export default function About() {
         <div className='col-6 about-side-one'>
           <h1 className='about-my-life'>My Professional Life</h1>
           <p>
-            I have been a mascot for for a professional baseball team, I have
-            performed with the Band Kansas, and I recorded an album of my own
-            songs. After working as a teacher,a bartender, and a clerk of three
+            In highschool, I was a mascot for for a professional baseball team. After working as a teacher,a bartender, and a clerk of three
             different company departments, I found myself continually drawn to
             coding and web development. In 2018, after having the means of
             following this inclination, I moved to Miami, FL to study Full Stack
@@ -105,10 +103,13 @@ export default function About() {
               </tr>
             </table>
           </div>
-          {/* <img src='/Users/miketroianello/Desktop/Personal-Projects/troianello.co/src/pics/thumbnail.jpg' alt='Larger Pieces of the Smaller Picture' /> */}
         </div>
         <div className='col-6 about-side-2'>
           <h1 className='about-my-life'>My Personal Life</h1>
+          <p>
+          I have performed with the Band Kansas, and I recorded an album of my own songs. 
+          </p>
+          <iframe className="about-soundcloud-embed" width="69%" height="69%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
       </div>
     </div>

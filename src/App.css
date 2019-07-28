@@ -357,5 +357,9 @@ td {
 }
 
 .about-my-life {
-  margin: 1em 0 2em;
+  margin: 1em 0 1.25em;
+}
+
+.about-soundcloud-embed{
+  margin-left: 4.2em;
 }
