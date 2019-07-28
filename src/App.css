@@ -198,6 +198,12 @@ p {
   text-align: center;
 }
 
+.projects-technologies{
+  padding: 10vh 0 0 1.33vw;
+  background-color: #1c7787;
+  border: 1.5px solid black;
+}
+
 /* CONTACT PAGE */
 
 .contact-page {
