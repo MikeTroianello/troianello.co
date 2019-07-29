@@ -18,7 +18,7 @@ export default function Projects() {
       </ul>
     </div>
     <div className=' col-10 projects'>
-      <h1 className='projects-title'>My Previous Projects</h1>
+      <h1 className='projects-title'>My Project Portfolio</h1>
       <div className='project-box'>
         {projects.map((eachProject, i) => {
           return <ProjectCard key={i} {...eachProject} />;

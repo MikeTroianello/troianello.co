@@ -1,8 +1,7 @@
 .project-card {
   border: 1px solid black;
-  width: 20vw;
-  height: 30vh;
-  color: white;
+  /* width: 20vw;
+  height: 30vh; */
   display: flex;
   justify-content: center;
 }
@@ -10,39 +9,54 @@
 .main-project {
   background: red;
   border: 1px solid black;
-  width: 20vw;
-  height: 30vh;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
   color: white;
   display: flex;
   justify-content: center;
+  margin: 0 5px;
 }
 
 .game {
   background: green;
   border: 1px solid black;
-  width: 20vw;
-  height: 30vh;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
   color: white;
   display: flex;
   justify-content: center;
+  margin: 0 5px;
 }
 
 .codepen {
   background: yellow;
   border: 1px solid black;
-  width: 20vw;
-  height: 30vh;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
   color: white;
   display: flex;
   justify-content: center;
+  margin: 0 5px;
 }
 
 .proof-of-concept {
   background: white;
   border: 1px solid black;
-  width: 20vw;
-  height: 30vh;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
   color: white;
   display: flex;
   justify-content: center;
+  margin: 0 5px;
 }

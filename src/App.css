@@ -201,7 +201,7 @@ p {
 .projects-technologies{
   padding: 10vh 0 0 1.33vw;
   background-color: #1c7787;
-  border: 1.5px solid black;
+  border-right: 1.5px solid black;
 }
 
 /* CONTACT PAGE */
@@ -353,8 +353,17 @@ td {
   justify-content: center;
 }
 
+/* ICONS */
+
 .icons {
   margin-bottom: 1.1vh;
+}
+
+.mongo{
+  height: 63px;
+  width: 79px;
+  margin: -12px -23px -3px;
+  padding: 0;
 }
 
 /* ABOUT PAGE */

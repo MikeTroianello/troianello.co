@@ -2,7 +2,8 @@ import React from 'react';
 import jsLogo from '../images/pics/icons/javascript.png';
 import reactLogo from '../images/pics/icons/react.png';
 import nodeLogo from '../images/pics/icons/node.png';
-import mongoLogo from '../images/pics/icons/mongoDB.png';
+import mongoLogo from '../images/pics/icons/mongoDB2.png';
+import expressLogo from '../images/pics/icons/express2.png';
 import jqueryLogo from '../images/pics/icons/jquery.png';
 import cssLogo from '../images/pics/icons/css3.png';
 import sassLogo from '../images/pics/icons/sass.png';
@@ -16,11 +17,11 @@ export default function About() {
         <div className='col-6 about-side-one'>
           <h1 className='about-my-life'>My Professional Life</h1>
           <p>
-            In highschool, I was a mascot for for a professional baseball team. After working as a teacher,a bartender, and a clerk of three
+            In highschool, I was a mascot for for a professional baseball team. After working as a teacher, a tasting room manager, and a clerk of three
             different company departments, I found myself continually drawn to
             coding and web development. In 2018, after having the means of
             following this inclination, I moved to Miami, FL to study Full Stack
-            Web Development at Ironhack.
+            Web Development at Ironhack. I am currently a TA for their Full Time Web Development course.
           </p>
           <p>My web development skills include:</p>
           <div id='table-div'>
@@ -59,17 +60,25 @@ export default function About() {
                 <td>
                   <img
                     src={mongoLogo}
-                    height='42'
-                    width='42'
+
                     alt='mongodb-logo'
-                    className='icons'
+                    className='icons mongo'
                   />
                   MongoDB
                 </td>
               </tr>
               <tr>
-                <td className='express'>Express</td>
-                {/* <img className='icons' src='' alt='express-logo' /> */}
+                <td className='express'>
+                <img
+                    src={expressLogo}
+                    height='42'
+                    width='42'
+                    alt='css3-logo'
+                    className='icons'
+                  />
+                Express
+                </td>
+                
                 <td>
                   <img
                     src={jqueryLogo}
@@ -107,7 +116,7 @@ export default function About() {
         <div className='col-6 about-side-2'>
           <h1 className='about-my-life'>My Personal Life</h1>
           <p>
-          I have performed with the Band Kansas, and I recorded an album of my own songs. 
+          I have been playing piano and percussion for over 20 years. I have performed with the Band Kansas, and I recorded an album of my own songs. Aside from music, my hobbies include exercising, cooking, video games, and gardening. 
           </p>
           <iframe className="about-soundcloud-embed" width="69%" height="69%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
