@@ -249,7 +249,7 @@ mix-blend-mode: difference;
 }
 
 .contact-side-one-box{
-  border: 2px solid black;
+  border: 2px solid #113f5e;
   background-color: rgba(137, 215, 229, .7);
   text-align:center;
   margin-left: 1vw;
