@@ -69,17 +69,19 @@ p {
 }
 
 .link a {
-  text-decoration: #ff8500;
-  color: hsl(31, 100%, 39%);
-  background-color: hsl(31, 85%, 73%);
+  color: var(--off-white);
+  background-color: #0091A0;
   border-style: solid;
-  border-color: #ff8500;
+  border-color: #a2d7dc;
   border-width: 2px;
+  font-size: 1.75em;
+  padding: 0.5em;
+  /* border-radius: 5px; */
 }
 
 .home-top {
   background-color: #0091a0;
-  height: 86vh;
+  height: 65vh;
   width: 100%;
   transform: skewY(-5deg);
   margin-top: -5vh;
@@ -90,6 +92,17 @@ p {
   text-align: center;
   color: var(--off-white);
   font-size: 5em;
+  padding-left: 0.6em;
+  padding-top: 0.8em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  transform: skewY(5deg);
+  text-shadow: 1px 1px 1px #007783;
+}
+
+.home-top h2 {
+  text-align: center;
+  color: var(--off-white);
   padding-left: 0.6em;
   padding-top: 0.8em;
   margin-bottom: 0;

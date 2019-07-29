@@ -11,6 +11,7 @@ export default class Home extends Component {
       <div className='home-bg'>
         <div className='home-top'>
           <Greet hours={hours} />
+        <h2>My name is Mike Troianello, and I am a Full Stack Web Developer.</h2>
         </div>
         <div className='home-fade1' />
         <div className='home-projects'>
