@@ -3,6 +3,19 @@ import ProjectCard from '../cards/ProjectCard';
 import projects from '../../projects.json';
 
 export default function Projects() {
+
+  var mouse = {
+    x: undefined,
+    y: undefined
+  };
+
+  window.addEventListener('mousemove', function(event) {
+  mouse.x = event.x;
+  mouse.y = event.y;
+  console.log(mouse.x, mouse.y)
+  });
+
+
   return (
     <div className="row">
     <div className="col-2 projects-technologies">

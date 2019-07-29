@@ -20,6 +20,10 @@
   margin: 0 5px;
 }
 
+/* .main-project :hover {
+  color: black;
+} */
+
 .game {
   background: green;
   border: 1px solid black;
@@ -33,6 +37,10 @@
   justify-content: center;
   margin: 0 5px;
 }
+
+/* .game :hover{
+
+} */
 
 .codepen {
   background: yellow;
@@ -48,6 +56,10 @@
   margin: 0 5px;
 }
 
+/* .codepen :hover{
+  
+} */
+
 .proof-of-concept {
   background: white;
   border: 1px solid black;
@@ -60,3 +72,7 @@
   justify-content: center;
   margin: 0 5px;
 }
+
+/* .proof-of-concept :hover{
+  
+} */

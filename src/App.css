@@ -141,6 +141,14 @@ p {
   text-align: center;
 }
 
+.home-album-text{
+mix-blend-mode: difference;
+
+/* mix-blend-mode: exclusion; */
+
+
+}
+
 .home-contact {
   height: 50vh;
 }
@@ -187,11 +195,16 @@ p {
   height: 104vh;
   /* margin-top: -3em; */
   padding-top: 3em;
+  overflow: hidden;
 }
 
 .project-box {
   display: flex;
   justify-content: space-around;
+}
+
+.project-box :hover {
+  background: rgba(0,0,0,1);
 }
 
 .projects-title {
