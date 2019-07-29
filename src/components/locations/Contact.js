@@ -43,7 +43,7 @@ export default function Contact() {
         <div className='col-2 or'>OR</div>
         <div className='col-5 contact-side-two'>
           <h2 className='contact-center'>Message Me Directly:</h2>
-          <form className="contact-message">
+          <form className="contact-message" action="https://formspree.io/mike@troianello.co" method="POST" >
             <label>
               <input type='name' name='name' className="contact-message-input" placeholder="Your Name" />
             </label>
