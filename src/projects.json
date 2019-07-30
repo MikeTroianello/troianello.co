@@ -30,5 +30,13 @@
     "description": "",
     "category": "codepen",
     "technologies": ["CSS3", "JavaScript"]
+  },
+    {
+    "title": "Canvas Bubbles",
+    "url": "https://codepen.io/mktro/pen/bXqgzP",
+    "image": "",
+    "description": "",
+    "category": "codepen",
+    "technologies": ["CSS3", "JavaScript", "Canvas"]
   }
 ]
