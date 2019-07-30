@@ -304,6 +304,17 @@ mix-blend-mode: difference;
   margin-bottom: 4vh;
 }
 
+.contact-center-one {
+  text-align: center;
+  margin-bottom: 4vh;
+  margin-left: 1vw;
+}
+
+.contact-center-two {
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
 .or {
   margin-top: -15vh;
   display: flex;
