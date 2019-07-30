@@ -7,6 +7,7 @@ export default function ProjectCard(props) {
           <h1>
             <a href={props.url} target='_blank' rel='noopener noreferrer'>
               {props.title}
+              {props.url}
             </a>
           </h1>
       </div>
