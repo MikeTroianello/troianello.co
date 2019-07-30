@@ -6,73 +6,95 @@
   justify-content: center;
 }
 
-.main-project {
+.Full-Stack-Web-App {
   background: red;
+  text-align: center;
   border: 1px solid black;
   border-radius: 5px;
   /* width: 20vw;
   height: 30vh; */
-  width: 400px;
-  height: 284px;
-  color: white;
-  display: flex;
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
+  padding: 0;
 }
 
 /* .main-project :hover {
   color: black;
 } */
 
-.game {
+.Game {
   background: green;
+  text-align: center;
   border: 1px solid black;
   border-radius: 5px;
   /* width: 20vw;
   height: 30vh; */
-  width: 400px;
-  height: 284px;
-  color: white;
-  display: flex;
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
+  padding: 0;
 }
 
 /* .game :hover{
 
 } */
 
-.codepen {
+.Codepen {
   background: yellow;
+  text-align: center;
   border: 1px solid black;
   border-radius: 5px;
   /* width: 20vw;
   height: 30vh; */
-  width: 400px;
-  height: 284px;
-  color: white;
-  display: flex;
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
+  padding: 0;
 }
 
 /* .codepen :hover{
   
 } */
 
-.proof-of-concept {
+.Proof-of-Concept {
   background: white;
+  text-align: center;
   border: 1px solid black;
+  border-radius: 5px;
   /* width: 20vw;
   height: 30vh; */
-  width: 400px;
-  height: 284px;
-  color: white;
-  display: flex;
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
+  padding: 0;
 }
 
 /* .proof-of-concept :hover{
   
 } */
+
+.project-card-image {
+  border: 2px solid black;
+  padding: 0 15px;
+  width: 315;
+  height: 115px;
+}
+
+.project-card-description {
+  margin: 0;
+  font-size: 21px;
+}
+
+.project-card-list {
+  font-size: 32px;
+  font-weight: bold;
+}
