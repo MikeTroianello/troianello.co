@@ -47,7 +47,14 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  height:100px;
   z-index: 1;
+  transition: all .5s;
+}
+
+
+.header.transition {
+    transition: all .5s;
 }
 
 .header a {
@@ -104,11 +111,41 @@ p {
   text-align: center;
   color: var(--off-white);
   padding-left: 0.6em;
-  padding-top: 0.8em;
   margin-bottom: 0;
   padding-bottom: 0;
   transform: skewY(5deg);
   text-shadow: 1px 1px 1px #007783;
+}
+
+.home-typewriter-setup{
+    /* position: relative;
+    width: 29em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; */
+    position: relative;
+    width: 24em;
+    margin: 10vh auto;
+    border-right: 3px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.home-typewriter-animation{
+  animation: typewriter 6s steps(65) 1s 1 normal both,
+             blinkTextCursor 900ms steps(40) normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 29.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 .home-fade1 {
@@ -213,7 +250,9 @@ mix-blend-mode: difference;
 
 .project-box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  /* margin: 1vh 0; */
 }
 
 .project-box :hover {

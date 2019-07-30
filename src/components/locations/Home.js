@@ -4,14 +4,13 @@ import Greet from '../context-sensitive/Greet';
 
 export default class Home extends Component {
   render() {
-    let date = new Date();
-    let hours = date.getHours();
-    console.log(hours);
+    // let date = new Date();
+    // let hours = date.getHours();
     return (
       <div className='home-bg'>
         <div className='home-top'>
-          <Greet hours={hours} />
-        <h2>My name is Mike Troianello, and I am a Full Stack Web Developer.</h2>
+          <Greet hours={this.props.hours} />
+        <h2 className="home-typewriter-setup home-typewriter-animation">My name is Mike Troianello, and I am a Full Stack Web Developer.</h2>
         </div>
         <div className='home-fade1' />
         <div className='home-projects'>

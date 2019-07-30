@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Greet from "../components/context-sensitive/Greet.js"
 
 export default class Header extends Component {
   render() {
+    let headerClass = this.props.showHeader ? 'header' : 'header transition'
+    // if(this.props.showHeader == "time"){
+    //   this.props.showHeader = <Greet/>
+    // }
     return (
-      <div className='header'>
+      <div className={headerClass}>
         <div className='links'>
           {/* <div className='logo'>
             <Link to='/'>Mt</Link>
@@ -12,6 +17,7 @@ export default class Header extends Component {
           <Link to='/' className='logo-2'>
            <h1 className="mt-logo">Mt</h1> 
           </Link>
+          <div>{this.props.showHeader}</div>
           <div className='individual-link'>
             <Link to='/colors'>Color Scheme</Link>
           </div>
