@@ -134,7 +134,7 @@ p {
 }
 
 .home-typewriter-animation {
-  animation: typewriter 6s steps(65) 1s 1 normal both,
+  animation: typewriter 4s steps(65) 1s 1 normal both,
     blinkTextCursor 1000ms steps(40) infinite normal;
 }
 

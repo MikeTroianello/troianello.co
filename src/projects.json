@@ -2,7 +2,7 @@
   {
     "title": "Paint Shooter Game",
     "url": "https://miketroianello.github.io/Paint/paint.html",
-    "image": "",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564527916/folder-name/Paint.png.png",
     "alt": "Paint Shooter Screenshot",
     "description": "An arcade-style shooting game with the central mechanic of combining primary colors.",
     "category": "Game",
@@ -11,7 +11,7 @@
   {
     "title": "HotSpot",
     "url": "https://hotspot-map.herokuapp.com",
-    "image": "",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564527938/folder-name/HotSpot.png.png",
     "alt": "HotSpot Screenshot",
     "description": "A web app where users can check into places they visit, then share locations anonymously or personally.",
     "category": "Full-Stack-Web-App",
@@ -51,7 +51,7 @@
   {
     "title": "Rainbow Day",
     "url": "https://codepen.io/mktro/pen/NQrPGy",
-    "image": "",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564530140/folder-name/rainbow-day.png.png",
     "alt": "Rainbow Day Screenshot",
     "description": "This code pen will tell you what day it is, and will highlight in rainbow before returning to black.",
     "category": "Codepen",
@@ -60,9 +60,9 @@
   {
     "title": "Canvas Bubbles",
     "url": "https://codepen.io/mktro/pen/bXqgzP",
-    "image": "",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564529794/folder-name/bubbles.png.png",
     "alt": "Canvas Bubbles Screenshot",
-    "description": "A bubble generator using HTML Canvas. Each bubble has is completely randomized, and expands when close to the mouse. ",
+    "description": "A moving bubble generator using HTML Canvas. Each bubble is randomized, and expands when close to the mouse. ",
     "category": "Codepen",
     "technologies": ["CSS3", "JavaScript", "Canvas"]
   }

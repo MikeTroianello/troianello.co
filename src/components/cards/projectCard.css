@@ -84,9 +84,9 @@
 
 .project-card-image {
   border: 2px solid black;
-  padding: 0 15px;
-  width: 315;
-  height: 115px;
+  width: 315px;
+  height: 145px;
+  background-color: gray;
 }
 
 .project-card-description {
