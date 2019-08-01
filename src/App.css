@@ -226,6 +226,7 @@ p {
   /* margin-top: 1em; */
   padding-top: 3em;
   text-align: center;
+  min-height: 93.5vh;
 }
 
 .about p {
@@ -355,9 +356,9 @@ p {
 
 /* COLOR SCHEME REMAINING CLASSES DON'T DELETE YET!!!! */
 
-.container-fluid {
+/* .container-fluid {
   height: 500px;
-}
+} */
 
 /* .row {
   height: 500px;
@@ -431,12 +432,18 @@ td {
 #table-div {
   display: flex;
   justify-content: center;
+}
+
+.about-skills-table {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-skills-individual {
   border: 2px solid black;
-  font-size: 1.6em;
+  font-size: 1em;
+  width: 168px;
 }
 
 .about-skills-name {

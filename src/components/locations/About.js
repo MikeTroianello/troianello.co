@@ -206,9 +206,9 @@ export default function About() {
             title='Larger-Pieces-of-the-Smaller-Picture'
             className='about-soundcloud-embed'
             width='69%'
-            height='65%'
+            height='50%'
             scrolling='no'
-            frameborder='no'
+            frameBorder='no'
             allow='autoplay'
             src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
           />

@@ -12,9 +12,9 @@ export default class Header extends Component {
     return (
       <div className='header'>
         <div className='links'>
-          <div className='logo'>
+          {/* <div className='logo'>
             <Link to='/'>Mt</Link>
-          </div>
+          </div> */}
           <Link to='/' className='logo-2'>
             <h1 className='mt-logo'>Mt</h1>
           </Link>
