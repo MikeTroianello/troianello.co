@@ -66,9 +66,9 @@ p {
 
 /* HOME PAGE */
 
-.home-bg {
+/* .home-bg {
   height: 300vh;
-}
+} */
 
 .link {
   margin-left: 15em;
@@ -257,12 +257,13 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-decoration: none;
   /* margin: 1vh 0; */
 }
 
-.project-box :hover {
+/* .project-box :hover {
   background: rgba(0, 0, 0, 1);
-}
+} */
 
 .projects-title {
   text-align: center;

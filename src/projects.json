@@ -2,11 +2,12 @@
   {
     "title": "Paint Shooter Game",
     "url": "https://miketroianello.github.io/Paint/paint.html",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564527916/folder-name/Paint.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564608775/folder-name/Paint.png.png",
     "alt": "Paint Shooter Screenshot",
     "description": "An arcade-style shooting game with the central mechanic of combining primary colors.",
     "category": "Game",
-    "technologies": ["HTML", "CSS3", "JavaScript", "Canvas"]
+    "technologies": ["HTML", "CSS3", "JavaScript", "Canvas"],
+    "technologyString": "HTML, Canvas, & JavaScript. Music composed in Garage Band"
   },
   {
     "title": "HotSpot",
@@ -27,7 +28,8 @@
       "Bootstrap",
       "Heroku",
       "Google Maps API"
-    ]
+    ],
+    "technologyString": "JavaScript, Node.js, Express.js, MongoDB, and Google Maps API"
   },
   {
     "title": "IronQuest",
@@ -46,7 +48,8 @@
       "HTML",
       "CSS3",
       "Heroku"
-    ]
+    ],
+    "technologyString": "JavaScript, React.js, Node.js, Express.js, MongoDB, & Heroku"
   },
   {
     "title": "Rainbow Day",
@@ -55,15 +58,17 @@
     "alt": "Rainbow Day Screenshot",
     "description": "This code pen will tell you what day it is, and will highlight in rainbow before returning to black.",
     "category": "Codepen",
-    "technologies": ["CSS3", "JavaScript"]
+    "technologies": ["CSS3", "JavaScript"],
+    "technologyString": "CSS3 & JavaScript"
   },
   {
     "title": "Canvas Bubbles",
     "url": "https://codepen.io/mktro/pen/bXqgzP",
     "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564529794/folder-name/bubbles.png.png",
     "alt": "Canvas Bubbles Screenshot",
-    "description": "A moving bubble generator using HTML Canvas. Each bubble is randomized, and expands when close to the mouse. ",
+    "description": "A moving bubble generator using HTML Canvas. Each bubble is randomized, and expands near the mouse. ",
     "category": "Codepen",
-    "technologies": ["CSS3", "JavaScript", "Canvas"]
+    "technologies": ["CSS3", "JavaScript", "Canvas"],
+    "technologyString": "Canvas, CSS3, & JavaScript"
   }
 ]

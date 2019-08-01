@@ -14,7 +14,7 @@
   /* width: 20vw;
   height: 30vh; */
   width: 420px;
-  height: 420px;
+  height: 440px;
   color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
@@ -33,7 +33,7 @@
   /* width: 20vw;
   height: 30vh; */
   width: 420px;
-  height: 420px;
+  height: 440px;
   color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
@@ -52,7 +52,7 @@
   /* width: 20vw;
   height: 30vh; */
   width: 420px;
-  height: 420px;
+  height: 440px;
   color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
@@ -71,7 +71,7 @@
   /* width: 20vw;
   height: 30vh; */
   width: 420px;
-  height: 420px;
+  height: 440px;
   color: var(--off-black);
   justify-content: center;
   margin: 2vh 5px;
@@ -82,19 +82,108 @@
   
 } */
 
+.project-card-link {
+  text-decoration: none;
+  border: none;
+}
+
 .project-card-image {
   border: 2px solid black;
   width: 315px;
-  height: 135px;
+  height: 145px;
   background-color: gray;
 }
 
 .project-card-description {
-  margin: 0;
+  margin: 4px 0 0 0;
   font-size: 21px;
 }
 
 .project-card-list {
   font-size: 32px;
   font-weight: bold;
+}
+
+.project-cart-technologies {
+  text-align: center;
+  font-size: 23px;
+  margin: 10px;
+  padding: 0px 19px;
+}
+
+/* FOR RAINBOW DAY ONLY */
+
+.project-card-image-rainbow {
+  border: 2px solid black;
+  width: 315px;
+  height: 135px;
+  background-color: white;
+  margin: 0px auto;
+}
+
+.color-bar {
+  width: 75.6%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.black-bar {
+  background: black;
+  -webkit-background-clip: text;
+  animation: loading 15s infinite;
+}
+
+#day {
+  white-space: nowrap;
+  position: static;
+  color: transparent;
+}
+
+@keyframes loading {
+  from {
+    left: 0;
+    width: 100%;
+  }
+  2% {
+    left: 0;
+    width: 100%;
+  }
+  6% {
+    left: 0;
+    width: 0;
+  }
+  22% {
+    left: 0;
+    width: 0;
+  }
+  24% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* END OF RAINBOW DAY */
+
+/* FOR CANVAS BUBBLES ONLY */
+
+.project-card-image-bubbles {
+  border: 2px solid black;
+  width: 315px;
+  height: 135px;
+  background-color: white;
+  margin: 0px auto;
 }

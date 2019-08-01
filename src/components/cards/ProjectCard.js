@@ -1,25 +1,45 @@
 import React from 'react';
+import RainbowDay from './RainbowDay';
+import CanvasBubbles from './CanvasBubbles';
 import './projectCard.css';
 
 export default function ProjectCard(props) {
-  let tech = props.technologies;
-  console.log(tech);
   return (
-    <div className={props.category}>
-      <a href={props.url} target='_blank' rel='noopener noreferrer'>
-        <h3>{props.category}</h3>
-        <h1>
-          {props.title}
-          <img
-            className='project-card-image'
-            src={props.image}
-            alt={props.alt}
-          />
-          <p className='project-card-description'>{props.description}</p>
-          <ul className='project-card-list'>
-            Technologies Used: {tech.forEach(technology => {})}
-          </ul>
-        </h1>
+    <div>
+      <a
+        className='project-card-link'
+        href={props.url}
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <div className={props.category}>
+          <h3>{props.category}</h3>
+          <h1>
+            {props.title}
+            {props.title === 'Rainbow Day' ? (
+              <div className='project-card-image-rainbow'>
+                <RainbowDay />
+              </div>
+            ) : props.title === 'Canvas Bubbles' ? (
+              <div className='project-card-image-bubbles'>
+                <CanvasBubbles />
+              </div>
+            ) : (
+              <img
+                className='project-card-image'
+                src={props.image}
+                alt={props.alt}
+              />
+            )}
+            <p className='project-card-description'>{props.description}</p>
+            <h4 className='project-card-list'>
+              Technologies Used: <br />
+              <p className='project-cart-technologies'>
+                {props.technologyString}
+              </p>
+            </h4>
+          </h1>
+        </div>
       </a>
     </div>
   );
