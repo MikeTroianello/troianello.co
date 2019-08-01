@@ -24,7 +24,7 @@ export default function About() {
           </p>
           <p>My web development skills include:</p>
           <div id='table-div'>
-            <table>
+            {/* <table>
               <tr>
                 <td>
                   <img
@@ -108,7 +108,90 @@ export default function About() {
                   SCSS
                 </td>
               </tr>
-            </table>
+            </table> */}
+
+            <div className='about-skills-table'>
+              <div className='about-skills-individual'>
+                <img
+                  src={jsLogo}
+                  height='42'
+                  width='42'
+                  alt='js-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>JavaScript</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={reactLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons react'
+                />
+                <span className='about-skills-name'>React.js</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={nodeLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>Node.js</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={mongoLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>MongoDB</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={expressLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>Express</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={jqueryLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>jQuery</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={cssLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>CSS3</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
+                  src={sassLogo}
+                  height='42'
+                  width='42'
+                  alt='react-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>SCSS</span>
+              </div>
+            </div>
           </div>
         </div>
         <div className='col-6 about-side-2'>

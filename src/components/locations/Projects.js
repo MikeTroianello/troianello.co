@@ -30,6 +30,7 @@ export default function Projects() {
     </div> */}
       <div className='projects'>
         <h1 className='projects-title'>My Project Portfolio</h1>
+        <h3 className='projects-title'>(Click to visit each site)</h3>
         <div className='project-box'>
           {projects.map((eachProject, i) => {
             return <ProjectCard key={i} {...eachProject} />;

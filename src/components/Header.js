@@ -4,16 +4,17 @@ import Greet from '../components/context-sensitive/Greet.js';
 
 export default class Header extends Component {
   render() {
-    let headerClass = this.props.showHeader ? 'header' : 'header transition';
+    // let headerClass = this.props.showHeader ? 'header' : 'header transition';
     // if(this.props.showHeader == "time"){
     //   this.props.showHeader = <Greet/>
     // }
+    /* <div className={headerClass}> */
     return (
-      <div className={headerClass}>
+      <div className='header'>
         <div className='links'>
-          {/* <div className='logo'>
+          <div className='logo'>
             <Link to='/'>Mt</Link>
-          </div> */}
+          </div>
           <Link to='/' className='logo-2'>
             <h1 className='mt-logo'>Mt</h1>
           </Link>

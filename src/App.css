@@ -221,8 +221,8 @@ p {
   background-color: #1c7787;
   color: var(--off-white);
   /* height: 92.9vh; */
-  height: 125vh;
-  overflow: hidden;
+  /* height: 125vh; */
+  /* overflow: hidden; */
   /* margin-top: 1em; */
   padding-top: 3em;
   text-align: center;
@@ -358,9 +358,10 @@ p {
 .container-fluid {
   height: 500px;
 }
-.row {
+
+/* .row {
   height: 500px;
-}
+} */
 
 .links {
   display: flex;
@@ -425,15 +426,27 @@ td {
   font-size: 2em;
 }
 
+/* SKILLS TABLE */
+
 #table-div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-skills-individual {
+  border: 2px solid black;
+  font-size: 1.6em;
+}
+
+.about-skills-name {
+  margin-right: 0.5vw;
 }
 
 /* ICONS */
 
 .icons {
-  margin-bottom: 1.1vh;
+  margin: 2vh 0.5vw 3.1vh;
 }
 
 .mongo {
