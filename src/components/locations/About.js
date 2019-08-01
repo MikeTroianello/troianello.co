@@ -24,92 +24,6 @@ export default function About() {
           </p>
           <p>My web development skills include:</p>
           <div id='table-div'>
-            {/* <table>
-              <tr>
-                <td>
-                  <img
-                    src={jsLogo}
-                    height='42'
-                    width='42'
-                    alt='js-logo'
-                    className='icons'
-                  />
-                  JavaScript
-                </td>
-                <td>
-                  <img
-                    src={reactLogo}
-                    height='42'
-                    width='42'
-                    alt='react-logo'
-                    className='icons react'
-                  />
-                  React.js
-                </td>
-                <td>
-                  <img
-                    src={nodeLogo}
-                    height='42'
-                    width='42'
-                    alt='node-logo'
-                    className='icons'
-                  />
-                  Node.js
-                </td>
-                <td>
-                  <img
-                    src={mongoLogo}
-                    alt='mongodb-logo'
-                    className='icons mongo'
-                  />
-                  MongoDB
-                </td>
-              </tr>
-              <tr>
-                <td className='express'>
-                  <img
-                    src={expressLogo}
-                    height='42'
-                    width='42'
-                    alt='css3-logo'
-                    className='icons'
-                  />
-                  Express
-                </td>
-
-                <td>
-                  <img
-                    src={jqueryLogo}
-                    alt='jquery-logo'
-                    height='42'
-                    width='42'
-                    className='icons'
-                  />
-                  jQuery
-                </td>
-                <td>
-                  <img
-                    src={cssLogo}
-                    height='42'
-                    width='42'
-                    alt='css3-logo'
-                    className='icons'
-                  />
-                  CSS3
-                </td>
-                <td>
-                  <img
-                    src={sassLogo}
-                    height='42'
-                    width='42'
-                    alt='sass-logo'
-                    className='icons'
-                  />
-                  SCSS
-                </td>
-              </tr>
-            </table> */}
-
             <div className='about-skills-table'>
               <div className='about-skills-individual'>
                 <img
@@ -141,13 +55,13 @@ export default function About() {
                 />
                 <span className='about-skills-name'>Node.js</span>
               </div>
-              <div className='about-skills-individual'>
+              <div className='about-skills-individual mongo-text'>
                 <img
                   src={mongoLogo}
                   height='42'
                   width='42'
                   alt='react-logo'
-                  className='icons'
+                  className='icons mongo'
                 />
                 <span className='about-skills-name'>MongoDB</span>
               </div>
@@ -205,8 +119,8 @@ export default function About() {
           <iframe
             title='Larger-Pieces-of-the-Smaller-Picture'
             className='about-soundcloud-embed'
-            width='69%'
-            height='50%'
+            width='66%'
+            height='57%'
             scrolling='no'
             frameBorder='no'
             allow='autoplay'

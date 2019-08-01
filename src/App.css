@@ -222,7 +222,7 @@ p {
   color: var(--off-white);
   /* height: 92.9vh; */
   /* height: 125vh; */
-  /* overflow: hidden; */
+  overflow: hidden;
   /* margin-top: 1em; */
   padding-top: 3em;
   text-align: center;
@@ -417,7 +417,7 @@ p {
   }
 }
 
-table,
+/* table,
 th,
 td {
   border: 2px solid black;
@@ -425,7 +425,7 @@ td {
 
 td {
   font-size: 2em;
-}
+} */
 
 /* SKILLS TABLE */
 
@@ -438,6 +438,7 @@ td {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 1.8vw;
 }
 
 .about-skills-individual {
@@ -459,17 +460,25 @@ td {
 .mongo {
   height: 63px;
   width: 79px;
-  margin: -12px -23px -3px;
+  margin: -6px -20px 0;
   padding: 0;
+}
+
+.mongo-text {
+  padding-top: 12px;
 }
 
 /* ABOUT PAGE */
 
 .about-side-one {
-  padding-right: 3.1vw;
+  /* padding-right: 3.1vw; */
   padding-bottom: 5vh;
   border-right: 1px solid black;
   /* height: 75vh; */
+}
+
+.about-side-one p {
+  margin-right: 3.1vw;
 }
 
 .about-side-2 {
