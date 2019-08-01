@@ -14,7 +14,7 @@ export default function About() {
     <div className='about'>
       <h1>About Me</h1>
       <div className='row'>
-        <div className='col-6 about-side-one'>
+        <div className='col-sm-6 about-side-one'>
           <h1 className='about-my-life'>My Professional Life</h1>
           <p>
             I have been a teacher, a tasting room manager, and a clerk of three
@@ -108,7 +108,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className='col-6 about-side-2'>
+        <div className='col-sm-6 about-side-2'>
           <h1 className='about-my-life'>My Personal Life</h1>
           <p>
             I've played piano and percussion for over 20 years. I have performed

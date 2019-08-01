@@ -281,8 +281,9 @@ p {
 .contact-page {
   background-color: #1c7787;
   color: var(--off-white);
-  height: 101.8vh;
-  overflow: hidden;
+  /* height: 101.8vh; HERE */
+  min-height: 101.8vh;
+  /* overflow: hidden; */
   margin-top: -3em;
   padding-top: 3em;
 }
@@ -300,6 +301,7 @@ p {
   text-align: center;
   margin-left: 1vw;
   padding-bottom: 5px;
+  word-wrap: break-word;
 }
 
 .contact-number {
@@ -323,7 +325,7 @@ p {
 }
 
 .or {
-  margin-top: -15vh;
+  margin-bottom: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
