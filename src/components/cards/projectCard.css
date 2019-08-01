@@ -8,7 +8,7 @@
 } */
 
 .Full-Stack-Web-App {
-  background: red;
+  background: rgb(254, 252, 252, 0.5);
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -27,7 +27,7 @@
 } */
 
 .Game {
-  background: green;
+  background: rgba(203, 230, 196, 0.59);
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -46,7 +46,7 @@
 } */
 
 .Codepen {
-  background: yellow;
+  background: rgba(232, 247, 228, 0.59);
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -89,7 +89,7 @@
 }
 
 .project-card-link :hover {
-  background: rgba(77, 74, 74, 0.9);
+  background: rgba(158, 165, 165, 0.9);
 }
 
 .project-card-h1 {

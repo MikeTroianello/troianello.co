@@ -17,13 +17,10 @@ export default function About() {
         <div className='col-6 about-side-one'>
           <h1 className='about-my-life'>My Professional Life</h1>
           <p>
-            In highschool, I was a mascot for for a professional baseball team.
-            After working as a teacher, a tasting room manager, and a clerk of
-            three different company departments, I found myself continually
-            drawn to coding and web development. In 2018, after having the means
-            of following this inclination, I moved to Miami, FL to study Full
-            Stack Web Development at Ironhack. I am currently a TA for their
-            Full Time Web Development course.
+            I have been a teacher, a tasting room manager, and a clerk of three
+            different company departments. In 2019, I moved to Miami, FL to
+            study Full Stack Web Development at Ironhack, where am currently a
+            TA for their Full Time Web Development course.
           </p>
           <p>My web development skills include:</p>
           <div id='table-div'>
@@ -117,10 +114,10 @@ export default function About() {
         <div className='col-6 about-side-2'>
           <h1 className='about-my-life'>My Personal Life</h1>
           <p>
-            I have been playing piano and percussion for over 20 years. I have
-            performed with the Band Kansas, and I recorded an album of my own
-            songs. Aside from music, my hobbies include exercising, cooking,
-            video games, and gardening.
+            I've played piano and percussion for over 20 years. I have performed
+            with the Band Kansas, and I recorded an album of my own songs. Aside
+            from music, my hobbies include exercising, cooking, video games, and
+            gardening.
           </p>
           <iframe
             title='Larger-Pieces-of-the-Smaller-Picture'
