@@ -13,8 +13,8 @@ export default function ProjectCard(props) {
         rel='noopener noreferrer'
       >
         <div className={props.category}>
-          <h3>{props.category}</h3>
-          <h1>
+          <h3 className='project-card-category'>{props.category}</h3>
+          <h1 className='project-card-h1'>
             {props.title}
             {props.title === 'Rainbow Day' ? (
               <div className='project-card-image-rainbow'>
