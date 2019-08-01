@@ -20,6 +20,7 @@
   justify-content: center;
   margin: 2vh 5px;
   padding: 0;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* .main-project :hover {
@@ -39,6 +40,7 @@
   justify-content: center;
   margin: 2vh 5px;
   padding: 0;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* .game :hover{
@@ -58,6 +60,7 @@
   justify-content: center;
   margin: 2vh 5px;
   padding: 0;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* .codepen :hover{
@@ -89,7 +92,7 @@
 }
 
 .project-card-link :hover {
-  background: rgba(158, 165, 165, 0.9);
+  background: rgba(136, 159, 159, 0.9);
 }
 
 .project-card-h1 {
