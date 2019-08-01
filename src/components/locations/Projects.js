@@ -15,8 +15,10 @@ export default function Projects() {
   // });
 
   return (
-    <div className='row'>
-      {/* <div className="col-2 projects-technologies">
+    <div className='projects'>
+      {/* <div className='row'> */}
+      <div>
+        {/* <div className="col-2 projects-technologies">
       <h2>Technologies Used:</h2>
       <ul>
         <li>JavaScript</li>
@@ -28,7 +30,7 @@ export default function Projects() {
         <li>CSS</li>
       </ul>
     </div> */}
-      <div className='projects'>
+        {/* <div className='projects'> */}
         <h1 className='projects-title'>My Project Portfolio</h1>
         <h3 className='projects-title'>(Click to visit each site)</h3>
         <div className='project-box'>
@@ -36,6 +38,7 @@ export default function Projects() {
             return <ProjectCard key={i} {...eachProject} />;
           })}
         </div>
+        {/* </div> */}
       </div>
     </div>
   );

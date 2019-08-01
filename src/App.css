@@ -252,6 +252,7 @@ p {
   /* margin-top: -3em; */
   padding-top: 3em;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .project-box {
@@ -283,7 +284,7 @@ p {
   color: var(--off-white);
   /* height: 101.8vh; HERE */
   min-height: 101.8vh;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin-top: -3em;
   padding-top: 3em;
 }
