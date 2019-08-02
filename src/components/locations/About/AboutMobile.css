@@ -1,0 +1,94 @@
+@media (max-width: 425px) {
+  .about {
+    /* height: 92.9vh; */
+    /* height: 125vh; */
+    overflow: hidden;
+    /* margin-top: 1em; */
+    padding-top: 3em;
+    text-align: center;
+    min-height: 93.5vh;
+  }
+
+  .about p {
+    color: var(--off-white);
+    color: var(--off-white);
+    margin: 0 !important;
+    padding: 1% 2% !important;
+  }
+
+  /* .about h4 {
+    text-align: center;
+  } */
+
+  .about ul > li {
+    list-style: none;
+    font-size: 1em;
+    /* text-align: center; */
+  }
+
+  /* SKILLS TABLE */
+
+  #table-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-skills-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 1.8vw;
+  }
+
+  .about-skills-individual {
+    border: 2px solid black;
+    font-size: 1em;
+    width: 167px;
+  }
+
+  .about-skills-name {
+    margin-right: 0.5vw;
+  }
+
+  /* ICONS */
+
+  .icons {
+    margin: 2vh 0.5vw 3.1vh;
+  }
+
+  .mongo {
+    height: 63px;
+    width: 79px;
+    margin: -6px -20px 0;
+    padding: 0;
+  }
+
+  .mongo-text {
+    padding-top: 12px;
+  }
+
+  /* ABOUT PAGE */
+
+  .about-side-one {
+    /* padding-right: 3.1vw; */
+    padding-bottom: 5vh;
+    border-right: 1px solid black;
+    /* height: 75vh; */
+  }
+
+  .about-side-one p {
+    margin-right: 3.1vw;
+  }
+
+  .about-side-2 {
+    margin-left: -2vw;
+  }
+
+  .about-my-life {
+    margin: 4.25vh 0 5vh;
+  }
+
+  .about-soundcloud-embed {
+    margin-left: 4.3vw;
+  }
+}

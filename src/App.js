@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/locations/Home';
-import About from './components/locations/About';
+import About from './components/locations/About/About';
 import Projects from './components/locations/Projects';
 import Contact from './components//locations/Contact';
 import NotFound from './components/locations/NotFound';
