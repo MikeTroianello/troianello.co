@@ -2,6 +2,7 @@ import React from 'react';
 import RainbowDay from './RainbowDay';
 import CanvasBubbles from './CanvasBubbles';
 import './projectCard.css';
+import './projectCardMobile.css';
 
 export default function ProjectCard(props) {
   return (
