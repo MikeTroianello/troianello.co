@@ -120,7 +120,7 @@ export default function About() {
             title='Larger-Pieces-of-the-Smaller-Picture'
             className='about-soundcloud-embed'
             width='66%'
-            height='57%'
+            height='300'
             scrolling='no'
             frameBorder='no'
             allow='autoplay'

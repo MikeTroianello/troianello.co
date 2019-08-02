@@ -301,6 +301,7 @@ p {
   background-color: rgba(137, 215, 229, 0.7);
   text-align: center;
   margin-left: 1vw;
+  margin-right: 1vw;
   padding-bottom: 5px;
   word-wrap: break-word;
 }
@@ -447,7 +448,7 @@ td {
 .about-skills-individual {
   border: 2px solid black;
   font-size: 1em;
-  width: 168px;
+  width: 167px;
 }
 
 .about-skills-name {
