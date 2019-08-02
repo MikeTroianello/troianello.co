@@ -12,7 +12,7 @@ export default class CanvasBubbles extends Component {
     var canvas = document.querySelector('canvas');
     console.log(canvas);
 
-    canvas.width = 313;
+    canvas.width = 296;
     canvas.height = 131;
 
     var ctx = canvas.getContext('2d');
