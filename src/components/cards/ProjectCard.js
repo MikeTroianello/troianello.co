@@ -23,7 +23,7 @@ export default function ProjectCard(props) {
               </div>
             ) : props.title === 'Canvas Bubbles' ? (
               <div className='project-card-image-bubbles'>
-                <CanvasBubbles />
+                <CanvasBubbles width={window.innerWidth} />
               </div>
             ) : (
               <img

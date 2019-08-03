@@ -10,9 +10,13 @@ export default class CanvasBubbles extends Component {
 
   componentDidMount() {
     var canvas = document.querySelector('canvas');
-    console.log(canvas);
+    console.log(this.props.width);
 
-    canvas.width = 296;
+    if (this.props.width > 425) {
+      canvas.width = 313;
+    } else {
+      canvas.width = 296;
+    }
     canvas.height = 131;
 
     var ctx = canvas.getContext('2d');
