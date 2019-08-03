@@ -1,0 +1,81 @@
+@media (max-width: 425px) {
+  .contact-page {
+    min-height: 101.8vh;
+    overflow: hidden;
+    margin-top: -3em;
+    padding-top: 3em;
+  }
+
+  .contact-page h1 {
+    margin: 8vh;
+  }
+
+  .contact-page h3 {
+    font-size: 1.33rem;
+  }
+
+  /* .contact-side-one {
+  } */
+
+  .contact-side-one-box {
+    /* border: 2px solid #113f5e;
+    background-color: rgba(137, 215, 229, 0.7);
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-bottom: 5px;
+    word-wrap: break-word; */
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .contact-number {
+    color: var(--off-black);
+  }
+
+  .contact-center {
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+
+  .contact-center-one {
+    text-align: center;
+    margin-bottom: 4vh;
+    margin-left: 1vw;
+  }
+
+  .contact-center-two {
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+
+  .or {
+    margin-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: var(--off-white);
+  }
+
+  /* .contact-side-two {
+    padding-left: 0;
+  } */
+
+  .contact-message {
+    margin: 0 0 0 2vw;
+  }
+
+  .contact-message-input {
+    width: 98%;
+    /* margin-left: 1%; */
+  }
+
+  .contact-button {
+    width: 65%;
+    margin-left: 16%;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    font-size: 1.5em;
+  }
+}

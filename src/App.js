@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './components/locations/Home';
 import About from './components/locations/About/About';
 import Projects from './components/locations/Projects';
-import Contact from './components//locations/Contact';
+import Contact from './components/locations/Contact/Contact';
 import NotFound from './components/locations/NotFound';
 import Greet from './components/context-sensitive/Greet.js';
 import './App.css';

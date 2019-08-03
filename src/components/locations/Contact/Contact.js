@@ -1,4 +1,6 @@
 import React from 'react';
+import './Contact.css';
+import './ContactMobile.css';
 
 export default function Contact() {
   return (
@@ -11,7 +13,9 @@ export default function Contact() {
             <h3>
               Phone:
               <br />
-              <span className='contact-number'>(509)833-8340</span>
+              <span className='contact-number'>
+                <a href='tel:5098338340'>(509)833-8340</a>
+              </span>
             </h3>
             <h3>
               <h3>

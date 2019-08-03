@@ -1,0 +1,78 @@
+.contact-page {
+  background-color: #1c7787;
+  color: var(--off-white);
+  /* height: 101.8vh; HERE */
+  min-height: 101.8vh;
+  overflow: hidden;
+  margin-top: -3em;
+  padding-top: 3em;
+}
+
+.contact-page h1 {
+  margin: 8vh;
+}
+
+/* .contact-side-one {
+  } */
+
+.contact-side-one-box {
+  border: 2px solid #113f5e;
+  background-color: rgba(137, 215, 229, 0.7);
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.contact-number {
+  color: var(--off-black);
+}
+
+.contact-center {
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.contact-center-one {
+  text-align: center;
+  margin-bottom: 4vh;
+  margin-left: 1vw;
+}
+
+.contact-center-two {
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.or {
+  margin-bottom: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.8em;
+  color: var(--off-white);
+}
+
+/* .contact-side-two{
+    display: flex;
+  } */
+
+.contact-message {
+  flex-direction: column;
+  /* align-items:center; */
+  display: flex;
+}
+
+.contact-message-input {
+  width: 90%;
+}
+
+.contact-button {
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: var(--off-black);
+  background: var(--off-white);
+  margin-left: 32%;
+}
