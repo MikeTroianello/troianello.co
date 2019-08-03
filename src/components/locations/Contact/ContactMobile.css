@@ -8,10 +8,11 @@
 
   .contact-page h1 {
     margin: 8vh;
+    margin-bottom: 4vh;
   }
 
   .contact-page h3 {
-    font-size: 1.33rem;
+    font-size: 1.3rem;
   }
 
   /* .contact-side-one {

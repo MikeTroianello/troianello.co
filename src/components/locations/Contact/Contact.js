@@ -14,7 +14,12 @@ export default function Contact() {
               Phone:
               <br />
               <span className='contact-number'>
-                <a href='tel:5098338340'>(509)833-8340</a>
+                {window.innerWidth > 425 ? (
+                  '(509)833-8340'
+                ) : (
+                  <a href='tel:5098338340'>(509)833-8340</a>
+                )}
+                {/* <h1>{window.innerWidth}</h1> */}
               </span>
             </h3>
             <h3>
