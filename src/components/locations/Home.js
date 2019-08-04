@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Greet from '../context-sensitive/Greet';
+import projects from '../../projects.json';
+import mainProjects from '../../mainProjects.json';
+import ProjectCard from '../cards/ProjectCard';
 
 export default class Home extends Component {
   render() {
@@ -17,7 +20,15 @@ export default class Home extends Component {
         <div className='home-fade1' />
         <div className='home-projects'>
           <h1>MY PROJECTS</h1>
-          <div className='link'>
+          <h3>(Scroll to see more -->)</h3>
+
+          <div className='home-project-box'>
+            {projects.map((eachProject, i) => {
+              return <ProjectCard key={i} {...eachProject} />;
+            })}
+          </div>
+
+          <div className='link home-project-button'>
             <Link to='/projects'>All My Projects</Link>
           </div>
         </div>

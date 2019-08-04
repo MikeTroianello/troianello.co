@@ -8,7 +8,7 @@
 } */
 
 .Full-Stack-Web-App {
-  background: rgb(254, 252, 252, 0.5);
+  background: rgba(178, 204, 204, 0.9);
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -154,7 +154,10 @@
   /* width: 54%; */
 
   /* SATURDAY */
-  width: 65%;
+  /* width: 65%; */
+
+  /* SUNDAY */
+  width: 59%;
 
   margin: 14% auto;
   background: linear-gradient(

@@ -4,16 +4,18 @@ export default class CanvasBubbles extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      show: false
+      x: props.x,
+      y: props.y
     };
   }
 
   componentDidMount() {
+    console.log(this.props);
     var canvas = document.querySelector('canvas');
-    console.log(this.props.width);
+    // console.log(this.props.width);
 
     if (this.props.width > 425) {
-      canvas.width = 313;
+      canvas.width = 311;
     } else {
       canvas.width = 296;
     }
@@ -62,18 +64,18 @@ export default class CanvasBubbles extends Component {
 
           // interactivity
 
-          if (
-            mouse.x - this.x < 60 &&
-            mouse.x - this.x > -60 &&
-            mouse.y - this.y < 60 &&
-            mouse.y - this.y > -60
-          ) {
-            if (this.radius < maxRadius) {
-              this.radius++;
-            }
-          } else if (this.radius > this.minRadius) {
-            this.radius--;
-          }
+          // if (
+          //   mouse.x - this.x < 60 &&
+          //   mouse.x - this.x > -60 &&
+          //   mouse.y - this.y < 60 &&
+          //   mouse.y - this.y > -60
+          // ) {
+          //   if (this.radius < maxRadius) {
+          //     this.radius++;
+          //   }
+          // } else if (this.radius > this.minRadius) {
+          //   this.radius--;
+          // }
 
           this.draw();
         };
@@ -100,7 +102,7 @@ export default class CanvasBubbles extends Component {
     function animate() {
       requestAnimationFrame(animate);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      console.log(mouse);
+      // console.log(mouse);
       for (let i = 0; i < circleArray.length; i++) {
         circleArray[i].update();
       }

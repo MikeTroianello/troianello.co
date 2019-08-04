@@ -71,7 +71,9 @@ p {
 } */
 
 .link {
-  margin-left: 15em;
+  /* margin-left: 15em; */
+  text-align: center;
+  margin: 5vh 0;
 }
 
 .link a {
@@ -163,6 +165,20 @@ p {
   margin-top: -1vh;
 }
 
+/* .link {
+  margin-bottom: 2px;
+} */
+
+.home-project-box{
+  display: flex;
+  overflow-x: scroll;
+  text-decoration:none;
+  justify-content: flex-start;
+}
+
+.home-project-button {
+}
+
 .home-fade2 {
   height: 1vh;
   width: 100%;
@@ -198,10 +214,13 @@ p {
   text-align: center;
 }
 
+.home-projects h3 {
+  color: var(--off-black);
+  text-align: center;
+}
+
 .home-album-text {
   mix-blend-mode: difference;
-
-  /* mix-blend-mode: exclusion; */
 }
 
 .home-contact {
@@ -219,8 +238,6 @@ p {
 .projects {
   background-color: #1c7787;
   color: var(--off-white);
-  /* height: 104vh; */
-  /* margin-top: -3em; */
   padding-top: 3em;
   overflow: hidden;
   min-height: 97.45vh;
@@ -234,10 +251,6 @@ p {
   /* margin: 1vh 0; */
 }
 
-/* .project-box :hover {
-  background: rgba(0, 0, 0, 1);
-} */
-
 .projects-title {
   text-align: center;
 }
@@ -248,16 +261,6 @@ p {
   border-right: 1.5px solid black;
 }
 
-/* COLOR SCHEME REMAINING CLASSES DON'T DELETE YET!!!! */
-
-/* .container-fluid {
-  height: 500px;
-} */
-
-/* .row {
-  height: 500px;
-} */
-
 .links {
   display: flex;
   justify-content: flex-end;
@@ -267,6 +270,8 @@ p {
 .individual-link {
   margin: 0 1em;
 }
+
+/* NAVBAR */
 
 /* logo */
 
@@ -294,29 +299,3 @@ p {
 .mt-logo {
   margin: 3px 0;
 }
-
-.react {
-  animation-name: spin;
-  animation-duration: 35s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* table,
-th,
-td {
-  border: 2px solid black;
-}
-
-td {
-  font-size: 2em;
-} */

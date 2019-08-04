@@ -50,25 +50,5 @@
       "Heroku"
     ],
     "technologyString": "JavaScript, React.js, Node.js, Express.js, MongoDB, & Heroku"
-  },
-  {
-    "title": "Rainbow Day",
-    "url": "https://codepen.io/mktro/pen/NQrPGy",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564530140/folder-name/rainbow-day.png.png",
-    "alt": "Rainbow Day Screenshot",
-    "description": "This code pen will tell you what day it is, and will highlight in rainbow before returning to black.",
-    "category": "Codepen",
-    "technologies": ["CSS3", "JavaScript"],
-    "technologyString": "CSS3 & JavaScript"
-  },
-  {
-    "title": "Canvas Bubbles",
-    "url": "https://codepen.io/mktro/pen/bXqgzP",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564529794/folder-name/bubbles.png.png",
-    "alt": "Canvas Bubbles Screenshot",
-    "description": "A moving bubble generator using HTML Canvas. Each bubble is randomized, and expands near the mouse in Codepen.",
-    "category": "Codepen",
-    "technologies": ["CSS3", "JavaScript", "Canvas"],
-    "technologyString": "Canvas, CSS3, & JavaScript"
   }
 ]
