@@ -81,10 +81,15 @@ p {
   background-color: #0091a0;
   border-style: solid;
   border-color: #a2d7dc;
+  border-radius: 12px;
   border-width: 2px;
   font-size: 1.75em;
   padding: 0.5em;
   /* border-radius: 5px; */
+}
+
+.link :hover {
+  background-color: #46a8ba;
 }
 
 .home-top {
