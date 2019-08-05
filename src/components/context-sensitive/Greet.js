@@ -1,8 +1,21 @@
 import React, { Component } from 'react';
 
 export default class Greed extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      hours: null
+    }
+  }
+
+  componentWillMount(){
+    let date = new Date();
+    let hours = date.getHours();
+    this.setState({hours: hours})
+  }
+
   render() {
-    const { hours } = this.props;
+    const { hours } = this.state;
     function greeting() {
       if (hours < 12) {
         return 'Good Morning!';

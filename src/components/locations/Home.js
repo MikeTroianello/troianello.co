@@ -7,12 +7,10 @@ import ProjectCard from '../cards/ProjectCard';
 
 export default class Home extends Component {
   render() {
-    // let date = new Date();
-    // let hours = date.getHours();
     return (
       <div className='home-bg'>
         <div className='home-top'>
-          <Greet hours={this.props.hours} />
+          <Greet/>
           <h2 className='home-typewriter-setup home-typewriter-animation'>
             My name is Mike Troianello, and I am a Full Stack Web Developer.
           </h2>
