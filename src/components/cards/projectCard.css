@@ -229,3 +229,118 @@
   background-color: white;
   margin: 0px auto;
 }
+
+/* EACH DAY RAINBOW */
+
+.Monday {
+  width: 54%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.Tuesday {
+  width: 63.5%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.Wednesday {
+  width: 75.6%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.Thursday {
+  width: 67%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.Friday {
+  width: 54%;
+
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.Saturday {
+  width: 65%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.Sunday {
+  width: 59%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}

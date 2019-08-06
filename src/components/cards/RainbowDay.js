@@ -29,7 +29,7 @@ export default function RainbowDay() {
   }
 
   return (
-    <div className='color-bar'>
+    <div className={day}>
       <div className='black-bar'>
         <h3 id='day'>Happy {day}!</h3>
       </div>
