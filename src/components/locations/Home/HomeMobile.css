@@ -1,0 +1,19 @@
+@media(max-width: 500px){
+
+.home-projects h1{
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+.home-projects h3{
+  font-size: 1em !important;
+}
+
+.home-about h1{
+  font-size: 1em !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+
+
+}
