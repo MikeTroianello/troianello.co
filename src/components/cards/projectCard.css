@@ -144,6 +144,9 @@
 }
 
 .color-bar {
+  /* TUESDAY */
+  width: 63.5%;
+
   /* WEDNESDAY */
   /* width: 75.6%; */
 
@@ -157,7 +160,7 @@
   /* width: 65%; */
 
   /* SUNDAY */
-  width: 59%;
+  /* width: 59%; */
 
   margin: 14% auto;
   background: linear-gradient(
