@@ -7,3 +7,23 @@
 }
 
 }
+
+@media(max-width:500px){
+
+.greeting{     
+  font-size: 2em !important;
+}
+
+.home-projects h1{
+  font-size: 1em !important;
+}
+
+.home-projects h3{
+  font-size: 1em !important;
+}
+
+.home-about h1{
+  font-size: 1em !important;
+}
+
+}
