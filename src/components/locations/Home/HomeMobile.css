@@ -1,19 +1,22 @@
-@media(max-width: 500px){
+@media (max-width: 500px) {
+  .home-projects h1 {
+    font-size: 1.7em !important;
+    text-align: center !important;
+  }
 
-.home-projects h1{
-  font-size: 1em !important;
-  text-align: center !important;
-}
+  .home-projects h3 {
+    font-size: 0.9em !important;
+  }
 
-.home-projects h3{
-  font-size: 1em !important;
-}
+  .home-about h1 {
+    font-size: 2em !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
 
-.home-about h1{
-  font-size: 1em !important;
-  text-align: center !important;
-  margin: 0 !important;
-}
-
-
+  .home-top h1 {
+    font-size: 3em !important;
+    padding-top: 12vh !important;
+    margin: 0 !important;
+  }
 }

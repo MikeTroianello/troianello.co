@@ -4,13 +4,14 @@ import Greet from '../../Greet/Greet';
 import projects from '../../../projects.json';
 import mainProjects from '../../../mainProjects.json';
 import ProjectCard from '../../cards/ProjectCard';
+import './HomeMobile.css';
 
 export default class Home extends Component {
   render() {
     return (
       <div className='home-bg'>
         <div className='home-top'>
-          <Greet/>
+          <Greet />
           {/* <h2 className='home-typewriter-setup home-typewriter-animation'>
             My name is Mike Troianello, and I am a Full Stack Web Developer.
           </h2> */}
