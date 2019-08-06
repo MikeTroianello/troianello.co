@@ -18,9 +18,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 } */
-  /* align-items: center; */
-  /* color: white; */
-
+/* align-items: center; */
+/* color: white; */
 
 body {
   padding-top: 47px;
@@ -34,8 +33,6 @@ p {
   margin-left: 4em;
   color: var(--off-black);
 }
-
-
 
 /* HOME PAGE */
 
@@ -58,6 +55,7 @@ p {
   border-width: 2px;
   font-size: 1.75em;
   padding: 0.5em;
+  text-decoration: none;
   /* border-radius: 5px; */
 }
 
@@ -147,10 +145,10 @@ p {
   margin-bottom: 2px;
 } */
 
-.home-project-box{
+.home-project-box {
   display: flex;
   overflow-x: scroll;
-  text-decoration:none;
+  text-decoration: none;
   justify-content: flex-start;
 }
 
