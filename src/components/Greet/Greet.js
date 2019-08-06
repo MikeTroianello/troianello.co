@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import "./Greet.css";
+import './GreetMobile.css';
+import './Greet4k.css';
 
 export default class Greed extends Component {
   constructor(props){
@@ -27,7 +30,7 @@ export default class Greed extends Component {
     }
     return (
       <div>
-        <h1>{greeting()}</h1>
+        <h1 className="greeting">{greeting()}</h1>
       </div>
     );
   }

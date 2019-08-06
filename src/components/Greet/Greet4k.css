@@ -1,0 +1,8 @@
+@media(min-width: 2560px){
+
+.greeting{
+  padding-top: 15vh !important;
+  font-size: 10em !important;
+}
+
+}

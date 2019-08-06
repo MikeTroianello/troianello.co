@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Greet from '../context-sensitive/Greet';
-import projects from '../../projects.json';
-import mainProjects from '../../mainProjects.json';
-import ProjectCard from '../cards/ProjectCard';
+import Greet from '../../Greet/Greet';
+import projects from '../../../projects.json';
+import mainProjects from '../../../mainProjects.json';
+import ProjectCard from '../../cards/ProjectCard';
 
 export default class Home extends Component {
   render() {
@@ -11,9 +11,9 @@ export default class Home extends Component {
       <div className='home-bg'>
         <div className='home-top'>
           <Greet/>
-          <h2 className='home-typewriter-setup home-typewriter-animation'>
+          {/* <h2 className='home-typewriter-setup home-typewriter-animation'>
             My name is Mike Troianello, and I am a Full Stack Web Developer.
-          </h2>
+          </h2> */}
         </div>
         <div className='home-fade1' />
         <div className='home-projects'>

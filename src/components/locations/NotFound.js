@@ -5,8 +5,7 @@ export default function NotFound() {
     <div>
       <h1>LOL NOPE</h1>
       <p>
-        If you see this, you were likely attempting to break my site, so better
-        luck next time!
+        If you see this, you were likely attempting to break my site, so better luck next time!
       </p>
     </div>
   );

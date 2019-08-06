@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './components/locations/Home';
+import Header from './components/Header/Header';
+import Home from './components/locations/Home/Home';
 import About from './components/locations/About/About';
 import Projects from './components/locations/Projects';
 import Contact from './components/locations/Contact/Contact';
 import NotFound from './components/locations/NotFound';
-import Greet from './components/context-sensitive/Greet.js';
+import Greet from './components/Greet/Greet.js';
 import './App.css';
 
 class App extends Component {

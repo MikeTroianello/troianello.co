@@ -1,0 +1,9 @@
+@media(max-width: 768px){
+ 
+.greeting{
+  padding-left: 0 !important;
+  padding-top: 15vh !important;
+  font-size: 4em !important;
+}
+
+}

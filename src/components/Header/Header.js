@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Greet from '../components/context-sensitive/Greet.js';
+import Greet from './../Greet/Greet';
+import "./Header.css";
+import "./HeaderMobile.css";
 
 export default class Header extends Component {
   render() {
@@ -30,7 +32,7 @@ export default class Header extends Component {
             <Link to='/about'>About</Link>
           </div>
           <div className='individual-link test'>
-            <Link to='/contact'>Contact Me</Link>
+            <Link to='/contact'>Contact</Link>
           </div>
         </div>
       </div>
