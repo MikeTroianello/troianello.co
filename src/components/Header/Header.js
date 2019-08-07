@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Greet from './../Greet/Greet';
-import "./Header.css";
-import "./HeaderMobile.css";
+import './Header.css';
+import './HeaderMobile.css';
 
 export default class Header extends Component {
   render() {
@@ -14,13 +14,9 @@ export default class Header extends Component {
     return (
       <div className='header'>
         <div className='links'>
-          {/* <div className='logo'>
-            <Link to='/'>Mt</Link>
-          </div> */}
           <Link to='/' className='logo-2'>
             <h1 className='mt-logo'>Mt</h1>
           </Link>
-          <div>{this.props.showHeader}</div>
 
           <div className='individual-link'>
             <Link to='/'>Home</Link>

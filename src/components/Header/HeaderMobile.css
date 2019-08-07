@@ -1,8 +1,17 @@
-@media(max-width:500px){
-
-.individual-link{
-  margin: 0 1vh !important;
+@media (min-width: 400px) and(max-width: 500px) {
+  .individual-link {
+    margin: 0 1vw !important;
+  }
 }
 
+@media (max-width: 393px) {
+  .individual-link {
+    margin: 0 3.5vw !important;
+  }
+}
 
+@media (max-width: 362px) {
+  .individual-link {
+    margin: 0 1.9vw !important;
+  }
 }
