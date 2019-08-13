@@ -85,6 +85,7 @@
     height: 135px;
     background-color: white;
     margin: 0 auto;
+    margin-left: 1px;
   }
 
   .color-bar {
@@ -172,6 +173,7 @@
     height: 135px;
     background-color: white;
     margin: 0 auto;
+    margin-left: 1px;
   }
 
   /* EACH DAY CSS */
@@ -179,7 +181,7 @@
   /* EACH DAY RAINBOW */
 
   .Monday {
-    width: 57%;
+    width: 42%;
     margin: 15% auto;
     background: linear-gradient(
       to right,
