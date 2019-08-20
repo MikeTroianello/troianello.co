@@ -26,6 +26,9 @@ export default function RainbowDay() {
     case 6:
       day = 'Saturday';
       break;
+    default:
+      day = 'Sunday';
+      break;
   }
 
   return (

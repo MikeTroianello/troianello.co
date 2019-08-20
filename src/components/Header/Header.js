@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Greet from './../Greet/Greet';
+// import Greet from './../Greet/Greet';
 import './Header.css';
 import './HeaderMobile.css';
 

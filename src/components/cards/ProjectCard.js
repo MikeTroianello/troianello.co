@@ -52,12 +52,12 @@ export default class ProjectCard extends Component {
               <p className='project-card-description'>
                 {this.props.description}
               </p>
-              <h4 className='project-card-list'>
+              <div className='project-card-list'>
                 Technologies Used: <br />
                 <p className='project-cart-technologies'>
                   {this.props.technologyString}
                 </p>
-              </h4>
+              </div>
             </h1>
           </div>
         </a>

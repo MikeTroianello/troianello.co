@@ -8,7 +8,7 @@ import expressLogo from '../../images/pics/icons/express2.png';
 import jqueryLogo from '../../images/pics/icons/jquery.png';
 import cssLogo from '../../images/pics/icons/css3.png';
 import sassLogo from '../../images/pics/icons/sass.png';
-import sassAltLogo from '../../images/pics/icons/sass-alt.png';
+// import sassAltLogo from '../../images/pics/icons/sass-alt.png';
 import './About.css';
 import './AboutMobile.css';
 

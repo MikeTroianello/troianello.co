@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Greet from '../../Greet/Greet';
 import projects from '../../../projects.json';
-import mainProjects from '../../../mainProjects.json';
 import ProjectCard from '../../cards/ProjectCard';
 import './HomeMobile.css';
 

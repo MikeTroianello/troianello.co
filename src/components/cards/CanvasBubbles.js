@@ -28,7 +28,7 @@ export default class CanvasBubbles extends Component {
       y: undefined
     };
 
-    let maxRadius = 30;
+    // let maxRadius = 30;
 
     window.addEventListener('mousemove', function(event) {
       mouse.x = event.x;
