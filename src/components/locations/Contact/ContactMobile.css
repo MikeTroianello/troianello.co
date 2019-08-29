@@ -80,3 +80,29 @@
     font-size: 1.5em;
   }
 }
+
+@media (max-width: 575px) {
+  .contact-message {
+    margin: 0 0 0 2vw;
+  }
+  .contact-message-input {
+    width: 98%;
+    /* margin-left: 1%; */
+  }
+  .contact-button {
+    width: 65%;
+    margin-left: 16%;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    font-size: 1.5em;
+  }
+
+  .or {
+    margin: 5vh 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: var(--off-white);
+  }
+}
