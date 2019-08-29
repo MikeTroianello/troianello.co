@@ -1,3 +1,5 @@
+/* SEPARATE PAGE */
+
 .contact-page {
   background-color: #1c7787;
   color: var(--off-white);
@@ -6,6 +8,21 @@
   overflow: hidden;
   margin-top: -3em;
   padding-top: 3em;
+}
+
+/* ON HOMEPAGE */
+
+#contact-on-homepage {
+  background-image: linear-gradient(
+    to bottom,
+    #69a2ab,
+    #7fa2b1,
+    #93a2b1,
+    #a1a4ad,
+    #a8a8a8
+  );
+  min-height: 101vh;
+  margin-top: 0;
 }
 
 .contact-page h1 {

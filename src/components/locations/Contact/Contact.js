@@ -2,9 +2,9 @@ import React from 'react';
 import './Contact.css';
 import './ContactMobile.css';
 
-export default function Contact() {
+export default function Contact(props) {
   return (
-    <div className='contact-page'>
+    <div className='contact-page' id={props.bg}>
       <h1 className='contact-center'>Contact Me</h1>
       <div className='row'>
         <div className='col-sm-5 contact-side-one'>

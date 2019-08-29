@@ -12,9 +12,9 @@ import sassLogo from '../../images/pics/icons/sass.png';
 import './About.css';
 import './AboutMobile.css';
 
-export default function About() {
+export default function About(props) {
   return (
-    <div className='about'>
+    <div className='about' id={props.bg}>
       <h1>About Me</h1>
       <div className='row'>
         <div className='col-sm-6 about-side-one'>

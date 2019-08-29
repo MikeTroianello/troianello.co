@@ -1,3 +1,4 @@
+/* ON SEPARATE PAGE */
 .about {
   /* background-color: #0091a0; */
   background-color: #1c7787;
@@ -9,6 +10,11 @@
   padding-top: 3em;
   text-align: center;
   min-height: 93.5vh;
+}
+
+/* ON HOMEPAGE */
+#about-on-homepage {
+  min-height: 99vh;
 }
 
 .about p {

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Greet from '../../Greet/Greet';
 import projects from '../../../projects.json';
 import ProjectCard from '../../cards/ProjectCard';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
 import './HomeMobile.css';
 
 export default class Home extends Component {
@@ -31,7 +33,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div className='home-fade2' />
-        <div className='home-about'>
+        {/* <div className='home-about'>
           <h1>ABOUT ME</h1>
           <p>
             I have been a <strong>Teacher</strong>, a <strong>Musician</strong>,
@@ -44,7 +46,10 @@ export default class Home extends Component {
           <div className='link'>
             <Link to='/contact'>My Contact Info</Link>
           </div>
-        </div>
+        </div> */}
+        <About bg={'about-on-homepage'} />
+        <div className='home-fade3' />
+        <Contact bg={'contact-on-homepage'} />
       </div>
     );
   }
