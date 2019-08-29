@@ -23,19 +23,18 @@ export default function Contact(props) {
               </span>
             </h3>
             <h3>
-              <h3>
-                Email:
+              Email:
+              <br />
+              <strong>
+                <a
+                  href='mailto:mike@troianello.co'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  mike@troianello.co
+                </a>
                 <br />
-                <strong>
-                  <a
-                    href='mailto:mike@troianello.co'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    mike@troianello.co
-                  </a>
-                </strong>
-              </h3>
+              </strong>
               GitHub:
               <br />
               <strong>
