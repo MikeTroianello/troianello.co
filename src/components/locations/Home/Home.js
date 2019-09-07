@@ -16,6 +16,9 @@ export default class Home extends Component {
           {/* <h2 className='home-typewriter-setup home-typewriter-animation'>
             My name is Mike Troianello, and I am a Full Stack Web Developer.
           </h2> */}
+          <h2>
+            My name is Mike Troianello, and I am a Full Stack Web Developer.
+          </h2>
         </div>
         <div className='home-fade1' />
         <div className='home-projects'>
