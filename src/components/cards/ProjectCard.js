@@ -13,14 +13,6 @@ export default class ProjectCard extends Component {
     };
   }
 
-  // componentDidMount() {
-  //   let rect = document.getElementById('canvas');
-  //   let r = rect.getBoundingClientRect();
-  //   // console.log(r);
-  //   // console.log(r.x, r.y);
-  //   this.setState({ x: r.x, y: r.y });
-  // }
-
   render() {
     return (
       <div>

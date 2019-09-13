@@ -36,20 +36,6 @@ export default class Home extends Component {
           </div>
         </div>
         <div className='home-fade2' />
-        {/* <div className='home-about'>
-          <h1>ABOUT ME</h1>
-          <p>
-            I have been a <strong>Teacher</strong>, a <strong>Musician</strong>,
-            and now a <strong>Web Developer</strong>
-          </p>
-          <div className='link'>
-            <Link to='/about'>Learn More</Link>
-          </div>
-          <h1>CONTACT INFO</h1>
-          <div className='link'>
-            <Link to='/contact'>My Contact Info</Link>
-          </div>
-        </div> */}
         <About bg={'about-on-homepage'} />
         <div className='home-fade3' />
         <Contact bg={'contact-on-homepage'} />
