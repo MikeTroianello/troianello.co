@@ -5,6 +5,7 @@ import projects from '../../../projects.json';
 import ProjectCard from '../../cards/ProjectCard';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import './Home.css';
 import './HomeMobile.css';
 
 export default class Home extends Component {
