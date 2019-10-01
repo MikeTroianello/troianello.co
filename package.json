@@ -2,7 +2,7 @@
   "name": "troianello.co",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://troianello.github.io/me",
+  "homepage": "https://miketroianello.github.io/me/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
