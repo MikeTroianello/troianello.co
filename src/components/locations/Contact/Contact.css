@@ -42,6 +42,14 @@
   word-wrap: break-word;
 }
 
+.contact-side-one-box h3 {
+  color: rgb(244, 244, 244);
+}
+
+/* .contact-side-one-box a {
+  color: linear-gradient(#000000, #0071ea);
+} */
+
 .contact-number {
   color: var(--off-black);
 }
