@@ -173,14 +173,18 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
 .black-bar {
   pointer-events: none;
   background: black;
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
-  animation: loading 15s infinite;
+  animation: loading 8s infinite;
 }
 
 #day {
@@ -245,6 +249,8 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -261,6 +267,8 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -277,6 +285,8 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -293,6 +303,8 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -310,6 +322,8 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -326,6 +340,8 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -342,5 +358,7 @@
     indigo,
     violet
   );
+  /* HERE */
+  background-clip: text;
   -webkit-background-clip: text;
 }

@@ -13,15 +13,28 @@ export default class ProjectCard extends Component {
     };
   }
 
+  link = e => {
+    e.preventDefault();
+    if (window.orientation !== undefined) {
+      alert(
+        'You appear to be opening this on a mobile phone, this application can only be viewed on a computer'
+      );
+    } else {
+      // window.location.href = this.props.url;
+      window.open(this.props.url, '_blank');
+    }
+  };
+
   render() {
     return (
-      <div>
-        <a
+      <div className='project-card-link' onClick={e => this.link(e)}>
+        {/* <a
           className='project-card-link'
           href={this.props.url}
           target='_blank'
           rel='noopener noreferrer'
-        >
+        > */}
+        <div>
           <div className={this.props.category}>
             <h3 className='project-card-category'>{this.props.category}</h3>
             <h1 className='project-card-h1'>
@@ -52,8 +65,8 @@ export default class ProjectCard extends Component {
               </div>
             </h1>
           </div>
-        </a>
-        {console.log(this.state)}
+          {/* </a> */}
+        </div>
       </div>
     );
   }

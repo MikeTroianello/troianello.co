@@ -10,9 +10,7 @@ export default class CanvasBubbles extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props);
     var canvas = document.querySelector('canvas');
-    // console.log(this.props.width);
 
     if (this.props.width > 425) {
       canvas.width = 311;

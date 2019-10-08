@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import "./Greet.css";
+import './Greet.css';
 import './GreetMobile.css';
 import './Greet4k.css';
 
 export default class Greed extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={
+    this.state = {
       hours: null
-    }
+    };
   }
 
-  componentWillMount(){
+  componentDidMount() {
     let date = new Date();
     let hours = date.getHours();
-    this.setState({hours: hours})
+    this.setState({ hours: hours });
   }
 
   render() {
@@ -30,7 +30,7 @@ export default class Greed extends Component {
     }
     return (
       <div>
-        <h1 className="greeting">{greeting()}</h1>
+        <h1 className='greeting'>{greeting()}</h1>
       </div>
     );
   }
