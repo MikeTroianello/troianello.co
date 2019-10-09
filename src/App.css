@@ -22,7 +22,7 @@
 /* color: white; */
 
 body {
-  padding-top: 47px;
+  padding-top: 36px;
 }
 
 div {
@@ -76,7 +76,7 @@ p {
   text-align: center;
   color: var(--off-white);
   font-size: 5em;
-  padding-top: 0.8em;
+  padding-top: 1.15em;
   margin-bottom: 0;
   padding-bottom: 0;
   transform: skewY(5deg);

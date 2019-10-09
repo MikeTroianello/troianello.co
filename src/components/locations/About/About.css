@@ -6,10 +6,9 @@
   /* height: 92.9vh; */
   /* height: 125vh; */
   overflow: hidden;
-  /* margin-top: 1em; */
   padding-top: 3em;
   text-align: center;
-  min-height: 93.5vh;
+  min-height: 95vh;
 }
 
 /* ON HOMEPAGE */
@@ -21,8 +20,8 @@
   color: var(--off-white);
 }
 
-/* .about h4 {
-  text-align: center;
+/* .about h1 {
+  padding-top: -10vh;
 } */
 
 .about ul > li {

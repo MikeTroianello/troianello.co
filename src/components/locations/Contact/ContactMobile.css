@@ -106,3 +106,9 @@
     color: var(--off-white);
   }
 }
+
+@media (min-width: 1920px) {
+  .contact-page {
+    min-height: 102.5vh;
+  }
+}

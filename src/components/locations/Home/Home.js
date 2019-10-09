@@ -7,8 +7,15 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import './Home.css';
 import './HomeMobile.css';
+import axios from 'axios';
 
 export default class Home extends Component {
+  componentDidMount() {
+    axios
+      .get('https://uselessfacts.jsph.pl/random.json?language=en')
+      .then(fact => console.log('Hello! did you know: \n \n' + fact.data.text));
+  }
+
   render() {
     return (
       <div className='home-bg'>
