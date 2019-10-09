@@ -3,7 +3,6 @@ import './Contact.css';
 import './ContactMobile.css';
 
 export default function Contact(props) {
-  console.log(window.innerWidth);
   return (
     <div className='contact-page' id={props.bg}>
       <h1 className='contact-center'>Contact Me</h1>

@@ -13,6 +13,7 @@ import './About.css';
 import './AboutMobile.css';
 
 export default function About(props) {
+  // console.log = function() {};
   return (
     <div className='about' id={props.bg}>
       <h1>About Me</h1>
@@ -126,11 +127,12 @@ export default function About(props) {
             height='300'
             scrolling='no'
             frameBorder='no'
-            allow='autoplay'
-            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&visual=true'
           />
         </div>
       </div>
     </div>
   );
 }
+
+// src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
