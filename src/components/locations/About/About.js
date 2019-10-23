@@ -107,7 +107,7 @@ export default function About(props) {
                   alt='react-logo'
                   className='icons'
                 />
-                <span className='about-skills-name'>SCSS</span>
+                <span className='about-skills-name'>Sass</span>
               </div>
             </div>
           </div>
