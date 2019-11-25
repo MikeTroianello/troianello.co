@@ -41,7 +41,11 @@ export default class Home extends Component {
 
           <div className='home-project-box'>
             {projects.map((eachProject, i) => {
-              return <ProjectCard key={i} {...eachProject} />;
+              if (eachProject.frontPage !== 'false') {
+                return <ProjectCard key={i} {...eachProject} />;
+              } else {
+                return null;
+              }
             })}
           </div>
 

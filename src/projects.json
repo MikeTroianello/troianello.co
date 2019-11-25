@@ -1,5 +1,23 @@
 [
   {
+    "title": "SunLogs",
+    "url": "http://sunlog.herokuapp/com",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1574724493/folder-name/Screen%20Shot%202019-11-25%20at%203.23.56%20PM.png.png",
+    "alt": "SunLogs",
+    "description": "A MERN Application which correlates mood with local weather to study the relationship between the two.",
+    "category": "Full-Stack-Web-App",
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "OpenWeatherMap API",
+      "Geolocation",
+      "Express.js"
+    ],
+    "technologyString": "React, OpenWeatherMap API, Geolocation, Express.js"
+  },
+  {
     "title": "Paint Shooter",
     "url": "https://miketroianello.github.io/Paint/paint.html",
     "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564608775/folder-name/Paint.png.png",
@@ -59,7 +77,8 @@
     "description": "This code pen will tell you what day it is, and will highlight in rainbow before returning to black.",
     "category": "Codepen",
     "technologies": ["CSS3", "JavaScript"],
-    "technologyString": "CSS3 & JavaScript"
+    "technologyString": "CSS3 & JavaScript",
+    "frontPage": "false"
   },
   {
     "title": "Canvas Bubbles",
