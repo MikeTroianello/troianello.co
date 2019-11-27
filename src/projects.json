@@ -1,7 +1,7 @@
 [
   {
     "title": "SunLogs",
-    "url": "http://sunlog.herokuapp/com",
+    "url": "http://sunlog.herokuapp.com",
     "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1574724493/folder-name/Screen%20Shot%202019-11-25%20at%203.23.56%20PM.png.png",
     "alt": "SunLogs",
     "description": "A MERN Application which correlates mood with local weather to study the relationship between the two.",
