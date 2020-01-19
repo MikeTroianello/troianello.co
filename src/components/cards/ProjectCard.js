@@ -31,7 +31,7 @@ export default class ProjectCard extends Component {
         className='project-card-link'
         onClick={
           this.props.mobileFriendly
-            ? window.open(this.props.url, '_blank')
+            ? () => window.open(this.props.url, '_blank')
             : e => this.link(e)
         }
       >
