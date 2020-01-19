@@ -15,7 +15,8 @@
       "Geolocation",
       "Express.js"
     ],
-    "technologyString": "React, OpenWeatherMap API, Geolocation, Express.js"
+    "technologyString": "React, OpenWeatherMap API, Geolocation, Express.js",
+    "mobileFriendly": true
   },
   {
     "title": "Paint Shooter",
@@ -25,7 +26,8 @@
     "description": "An arcade-style shooting game with the central mechanic of combining primary colors.",
     "category": "Game",
     "technologies": ["HTML", "CSS3", "JavaScript", "Canvas"],
-    "technologyString": "HTML, Canvas, & JavaScript. Music composed in Garage Band"
+    "technologyString": "HTML, Canvas, & JavaScript. Music composed in Garage Band",
+    "mobileFriendly": false
   },
   {
     "title": "HotSpot",
@@ -47,7 +49,8 @@
       "Heroku",
       "Google Maps API"
     ],
-    "technologyString": "JavaScript, Node.js, Express.js, MongoDB, and Google Maps API"
+    "technologyString": "JavaScript, Node.js, Express.js, MongoDB, and Google Maps API",
+    "mobileFriendly": false
   },
   {
     "title": "IronQuest",
@@ -67,7 +70,8 @@
       "CSS3",
       "Heroku"
     ],
-    "technologyString": "JavaScript, React.js, Node.js, Express.js, MongoDB, & Heroku"
+    "technologyString": "JavaScript, React.js, Node.js, Express.js, MongoDB, & Heroku",
+    "mobileFriendly": false
   },
   {
     "title": "Rainbow Day",
@@ -78,7 +82,8 @@
     "category": "Codepen",
     "technologies": ["CSS3", "JavaScript"],
     "technologyString": "CSS3 & JavaScript",
-    "frontPage": "false"
+    "frontPage": "false",
+    "mobileFriendly": false
   },
   {
     "title": "Canvas Bubbles",
@@ -88,6 +93,7 @@
     "description": "A moving bubble generator using HTML Canvas. Each bubble is randomized, and expands near the mouse in Codepen.",
     "category": "Codepen",
     "technologies": ["CSS3", "JavaScript", "Canvas"],
-    "technologyString": "Canvas, CSS3, & JavaScript"
+    "technologyString": "Canvas, CSS3, & JavaScript",
+    "mobileFriendly": false
   }
 ]

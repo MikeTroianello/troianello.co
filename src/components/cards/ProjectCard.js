@@ -27,7 +27,14 @@ export default class ProjectCard extends Component {
 
   render() {
     return (
-      <div className='project-card-link' onClick={e => this.link(e)}>
+      <div
+        className='project-card-link'
+        onClick={
+          this.props.mobileFriendly
+            ? window.open(this.props.url, '_blank')
+            : e => this.link(e)
+        }
+      >
         {/* <a
           className='project-card-link'
           href={this.props.url}
