@@ -48,6 +48,7 @@
   border: 2px solid black;
   font-size: 1em;
   width: 167px;
+  margin: -1px;
 }
 
 .about-skills-name {
@@ -58,6 +59,10 @@
 
 .icons {
   margin: 2vh 0.5vw 3.1vh;
+}
+
+.javascript-icon {
+  margin: 2vh 0.4vw 3.1vh;
 }
 
 .mongo {

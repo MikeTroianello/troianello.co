@@ -8,6 +8,8 @@ import expressLogo from '../../images/pics/icons/express2.png';
 import jqueryLogo from '../../images/pics/icons/jquery.png';
 import cssLogo from '../../images/pics/icons/css3.png';
 import sassLogo from '../../images/pics/icons/sass.png';
+import reduxLogo from '../../images/pics/icons/redux.png';
+import firebaseLogo from '../../images/pics/icons/firebase.png';
 // import sassAltLogo from '../../images/pics/icons/sass-alt.png';
 import './About.css';
 import './AboutMobile.css';
@@ -22,9 +24,8 @@ export default function About(props) {
           <h1 className='about-my-life'>My Professional Life</h1>
           <p>
             I have been a teacher, a tasting room manager, and a clerk of three
-            different company departments. In 2019, I moved to Miami, FL to
-            study Full Stack Web Development at Ironhack, where am currently a
-            TA for their Full Time Web Development course.
+            different company departments. I am currently a React Native
+            instructor for Nucamp.
           </p>
           <p>My web development skills include:</p>
           <div id='table-div'>
@@ -35,7 +36,7 @@ export default function About(props) {
                   height='42'
                   width='42'
                   alt='js-logo'
-                  className='icons'
+                  className='javascript-icon'
                 />
                 <span className='about-skills-name'>JavaScript</span>
               </div>
@@ -51,10 +52,20 @@ export default function About(props) {
               </div>
               <div className='about-skills-individual'>
                 <img
+                  src={reduxLogo}
+                  height='42'
+                  width='42'
+                  alt='redux-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>Redux</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
                   src={nodeLogo}
                   height='42'
                   width='42'
-                  alt='react-logo'
+                  alt='node-logo'
                   className='icons'
                 />
                 <span className='about-skills-name'>Node.js</span>
@@ -64,7 +75,7 @@ export default function About(props) {
                   src={mongoLogo}
                   height='42'
                   width='42'
-                  alt='react-logo'
+                  alt='mongo-logo'
                   className='icons mongo'
                 />
                 <span className='about-skills-name'>MongoDB</span>
@@ -74,7 +85,7 @@ export default function About(props) {
                   src={expressLogo}
                   height='42'
                   width='42'
-                  alt='react-logo'
+                  alt='express-logo'
                   className='icons'
                 />
                 <span className='about-skills-name'>Express</span>
@@ -84,17 +95,27 @@ export default function About(props) {
                   src={jqueryLogo}
                   height='42'
                   width='42'
-                  alt='react-logo'
+                  alt='jquery-logo'
                   className='icons'
                 />
                 <span className='about-skills-name'>jQuery</span>
               </div>
               <div className='about-skills-individual'>
                 <img
+                  src={firebaseLogo}
+                  height='42'
+                  width='42'
+                  alt='firebase-logo'
+                  className='icons'
+                />
+                <span className='about-skills-name'>Firebase</span>
+              </div>
+              <div className='about-skills-individual'>
+                <img
                   src={cssLogo}
                   height='42'
                   width='42'
-                  alt='react-logo'
+                  alt='css-logo'
                   className='icons'
                 />
                 <span className='about-skills-name'>CSS3</span>
@@ -104,7 +125,7 @@ export default function About(props) {
                   src={sassLogo}
                   height='42'
                   width='42'
-                  alt='react-logo'
+                  alt='sass-logo'
                   className='icons'
                 />
                 <span className='about-skills-name'>Sass</span>
