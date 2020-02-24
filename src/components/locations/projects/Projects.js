@@ -1,8 +1,8 @@
 import React from 'react';
-import ProjectCard from '../cards/ProjectCard';
-import projects from '../../projects.json';
+import ProjectCard from '../../cards/ProjectCard';
+import projects from '../../../projects.json';
 
-export default function Projects() {
+export default function Projects(props) {
   // var mouse = {
   //   x: undefined,
   //   y: undefined
@@ -13,6 +13,10 @@ export default function Projects() {
   //   mouse.y = event.y;
   //   console.log(mouse.x, mouse.y);
   // });
+
+  // const passTechnologies = technologies => {
+  //   props.passUpTechnologies(technologies);
+  // };
 
   return (
     <div className='projects'>

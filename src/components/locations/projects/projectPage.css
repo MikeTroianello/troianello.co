@@ -1,0 +1,29 @@
+li {
+  list-style-type: none;
+  /* transform: translateX(-100%); */
+  transition: opacity 2s;
+  opacity: 1;
+}
+
+.pp-project-page {
+  display: flex;
+  flex-direction: row;
+  background-color: #1c7787;
+}
+
+.pp-project-info {
+  background-color: #0d4c57;
+  /* background-color: #1c7787; */
+  margin: 10vh 15px;
+  height: 76%;
+  width: 30%;
+  /* position: fixed; */
+}
+
+.pp-project-info-sub {
+  position: fixed;
+}
+
+/* .pp-project-cards {
+  overflow-y: scroll 
+} */

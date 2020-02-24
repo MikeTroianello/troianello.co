@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+
 import RainbowDay from './RainbowDay';
+import ProjectInfo from '../locations/projects/ProjectInfo';
 import CanvasBubbles from './CanvasBubbles';
+
 import './projectCard.css';
 import './projectCardMobile.css';
 
@@ -24,6 +27,11 @@ export default class ProjectCard extends Component {
       window.open(this.props.url, '_blank');
     }
   };
+
+  showInfo = () => {
+    this.props.passTechnologies(this.props.technologies);
+  };
+  // {/* onMouseEnter={() => this.showInfo(this.props)} */}
 
   render() {
     return (
