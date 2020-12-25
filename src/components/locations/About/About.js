@@ -148,12 +148,12 @@ export default function About(props) {
             height='300'
             scrolling='no'
             frameBorder='no'
-            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&visual=true'
+            // src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&visual=true'
+            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1092855955&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
           />
         </div>
       </div>
     </div>
+    // {/* </div> */}
   );
 }
-
-// src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/629500755&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true

@@ -13,7 +13,7 @@ export default class Home extends Component {
   componentDidMount() {
     axios
       .get('https://uselessfacts.jsph.pl/random.json?language=en')
-      .then(fact =>
+      .then((fact) =>
         console.log(
           '%cHello! %cdid you know: \n \n' + fact.data.text,
           'color: #1163dd; font-size: 22px; padding-bottom: 10px',
