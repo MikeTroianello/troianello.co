@@ -1,30 +1,29 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import RainbowDay from './RainbowDay';
-import ProjectInfo from '../locations/projects/ProjectInfo';
-import CanvasBubbles from './CanvasBubbles';
+import RainbowDay from "./RainbowDay";
+import CanvasBubbles from "./CanvasBubbles";
 
-import './projectCard.css';
-import './projectCardMobile.css';
+import "./projectCard.css";
+import "./projectCardMobile.css";
 
 export default class ProjectCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
       x: null,
-      y: null
+      y: null,
     };
   }
 
-  link = e => {
+  link = (e) => {
     e.preventDefault();
     if (window.orientation !== undefined) {
       alert(
-        'You appear to be opening this on a mobile phone, this application can only be viewed on a computer'
+        "You appear to be opening this on a mobile phone, this application can only be viewed on a computer"
       );
     } else {
       // window.location.href = this.props.url;
-      window.open(this.props.url, '_blank');
+      window.open(this.props.url, "_blank");
     }
   };
 
@@ -36,11 +35,11 @@ export default class ProjectCard extends Component {
   render() {
     return (
       <div
-        className='project-card-link'
+        className="project-card-link"
         onClick={
           this.props.mobileFriendly
-            ? () => window.open(this.props.url, '_blank')
-            : e => this.link(e)
+            ? () => window.open(this.props.url, "_blank")
+            : (e) => this.link(e)
         }
       >
         {/* <a
@@ -51,30 +50,30 @@ export default class ProjectCard extends Component {
         > */}
         <div>
           <div className={this.props.category}>
-            <h3 className='project-card-category'>{this.props.category}</h3>
-            <h1 className='project-card-h1'>
+            <h3 className="project-card-category">{this.props.category}</h3>
+            <h1 className="project-card-h1">
               {this.props.title}
-              {this.props.title === 'Rainbow Day' ? (
-                <div className='project-card-image-rainbow'>
+              {this.props.title === "Rainbow Day" ? (
+                <div className="project-card-image-rainbow">
                   <RainbowDay />
                 </div>
-              ) : this.props.title === 'Canvas Bubbles' ? (
-                <div id='canvas' className='project-card-image-bubbles'>
+              ) : this.props.title === "Canvas Bubbles" ? (
+                <div id="canvas" className="project-card-image-bubbles">
                   <CanvasBubbles width={window.innerWidth} />
                 </div>
               ) : (
                 <img
-                  className='project-card-image'
+                  className="project-card-image"
                   src={this.props.image}
                   alt={this.props.alt}
                 />
               )}
-              <p className='project-card-description'>
+              <p className="project-card-description">
                 {this.props.description}
               </p>
-              <div className='project-card-list'>
+              <div className="project-card-list">
                 Technologies Used: <br />
-                <p className='project-cart-technologies'>
+                <p className="project-cart-technologies">
                   {this.props.technologyString}
                 </p>
               </div>

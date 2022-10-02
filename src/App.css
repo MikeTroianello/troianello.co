@@ -4,11 +4,11 @@
 }
 
 .App {
-  font-family: 'roboto';
+  font-family: "roboto";
 }
-@import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Exo+2:800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Chivo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo+2:800&display=swap");
 
 /* .App-header {
   background-color: #282c34;
@@ -195,7 +195,7 @@ p {
   text-align: center;
 }
 
-.home-projects h3 {
+.home-projects h2 {
   color: var(--off-black);
   text-align: center;
 }

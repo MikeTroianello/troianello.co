@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 class ProjectInfo extends React.Component {
   state = {
-    tech: []
+    tech: [],
   };
 
   doThing = (tech, i) => {
@@ -13,7 +13,7 @@ class ProjectInfo extends React.Component {
 
   clearIt = () => {
     this.setState({
-      tech: []
+      tech: [],
     });
   };
 
@@ -25,11 +25,11 @@ class ProjectInfo extends React.Component {
   // }
 
   componentDidUpdate(nextProps) {
-    if (this.props != nextProps) {
+    if (this.props !== nextProps) {
       this.setState({
-        tech: []
+        tech: [],
       });
-      console.log('SOMETHING', this.props.technologies);
+      console.log("SOMETHING", this.props.technologies);
       this.props.technologies.map((tech, i) => {
         return setTimeout(() => this.doThing(tech), 400);
       });

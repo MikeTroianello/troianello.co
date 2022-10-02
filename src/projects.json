@@ -2,7 +2,7 @@
   {
     "title": "SunLogs",
     "url": "http://sunlog.herokuapp.com",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1574724493/folder-name/Screen%20Shot%202019-11-25%20at%203.23.56%20PM.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1574724493/folder-name/Screen%20Shot%202019-11-25%20at%203.23.56%20PM.png.webp",
     "alt": "SunLogs",
     "description": "A MERN Application which correlates mood with local weather to study the relationship between the two.",
     "category": "Full-Stack-Web-App",
@@ -21,7 +21,7 @@
   {
     "title": "HotSpot",
     "url": "https://hotspot-map.herokuapp.com",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564527938/folder-name/HotSpot.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564527938/folder-name/HotSpot.png.webp",
     "alt": "HotSpot Screenshot",
     "description": "A web app where users can check into places they visit, then share locations anonymously or personally.",
     "category": "Full-Stack-Web-App",
@@ -44,7 +44,7 @@
   {
     "title": "Paint Shooter",
     "url": "https://miketroianello.github.io/Paint/paint.html",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564608775/folder-name/Paint.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564608775/folder-name/Paint.png.webp",
     "alt": "Paint Shooter Screenshot",
     "description": "An arcade-style shooting game with the central mechanic of combining primary colors.",
     "category": "Game",
@@ -55,7 +55,7 @@
   {
     "title": "IronQuest",
     "url": "https://ironquest.herokuapp.com",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1562860932/folder-name/Ironquest-blue.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1562860932/folder-name/Ironquest-blue.png.webp",
     "alt": "IronQuest Logo",
     "description": "A full-stack MERN choose-your-own adventure where users can create their own stories based off of previous entries.",
     "category": "Full-Stack-Web-App",
@@ -76,7 +76,7 @@
   {
     "title": "Thy Consoleman",
     "url": "http://thyconsoleman.com",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1582522202/thy-dungeonman.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1582522202/thy-dungeonman.webp",
     "alt": "Thy Dungeonman ascii",
     "description": "The classic 2004 text-based adventure brought to your browser's console!",
     "category": "Game",
@@ -88,19 +88,19 @@
   {
     "title": "Rainbow Day",
     "url": "https://codepen.io/mktro/pen/NQrPGy",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564530140/folder-name/rainbow-day.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564530140/folder-name/rainbow-day.png.webp",
     "alt": "Rainbow Day Screenshot",
     "description": "This code pen will tell you what day it is, and will highlight in rainbow before returning to black.",
     "category": "Codepen",
     "technologies": ["CSS3", "JavaScript"],
     "technologyString": "CSS3 & JavaScript",
-    "frontPage": "false",
+    "backPage": true,
     "mobileFriendly": false
   },
   {
     "title": "Canvas Bubbles",
     "url": "https://codepen.io/mktro/pen/bXqgzP",
-    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564529794/folder-name/bubbles.png.png",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1564529794/folder-name/bubbles.png.webp",
     "alt": "Canvas Bubbles Screenshot",
     "description": "A moving bubble generator using HTML Canvas. Each bubble is randomized, and expands near the mouse in Codepen.",
     "category": "Codepen",
